@@ -4,13 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Effisched - Dashboard</title>
-  <link rel="stylesheet" href="afterlog.css">
+  <link rel="stylesheet" href="{{url_for('static',filename='css/styles.css')}}">
 </head>
 <body>
-  <div class="card">
-    <h1>Welcome back!!!!</h1>
-    <p>Your dashboard is ready. Let’s make today productive.</p>
-    <a href="calender.html" class="btn">Go to Dashboard</a>
+  <div class="container">
+    <div class="wrapper">
+      <h1>Welcome back!!!!</h1>
+      <p>Your dashboard is ready. Let's make today productive.</p>
+      <a href="/calendar" class="btn">Go to Dashboard</a>
+    </div>
   </div>
 </body>
 </html>

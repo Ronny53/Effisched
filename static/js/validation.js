@@ -29,9 +29,9 @@ form.addEventListener('submit', (e) => {
 
         // Redirect based on the button clicked
         if (signupButton && signupButton.innerText.toLowerCase() === "sign-up") {
-            window.location.href = "welcome.html";
+            window.location.href = "/welcome";
         } else if (loginButton && loginButton.innerText.toLowerCase() === "login") {
-            window.location.href = "afterlog.html";
+            window.location.href = "/calendar";
         }
     }
 })

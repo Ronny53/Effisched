@@ -7,7 +7,7 @@
     <title>Effisched-Login</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
-    <script type="text/javascript" src="validation.js" defer></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/validation.js') }}" defer></script>
 </head>
 
 <body>
@@ -46,7 +46,7 @@
 
             <p>
                 New here , Welcome to Effisched...
-                <a href="/templates/index.html">
+                <a href="/">
                     signup
                 </a>
             </p>

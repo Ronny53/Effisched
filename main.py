@@ -45,6 +45,8 @@ with open("ml_model\\priority_model.pkl", "rb") as f:
 EventsList=[]
 def loadEventsFromDatabase():
     print('\nloading Events from db...\n')
+    global EventsList
+    EventsList = []  # Clear the list to avoid duplicates
     con=get_db_connection()
     cur=con.cursor()
     cur.execute('SELECT type, title, deadline, duration, day, month, year, priority FROM events')
@@ -64,7 +66,7 @@ def loadEventsFromDatabase():
         if event not in EventsList:
             EventsList.append(event)
         print("Events after loading db :",EventsList)
-        con.close()
+    con.close()
             
 def savetoDatabase(new_event):
     # Check if the event already exists
@@ -127,10 +129,12 @@ def remove_event(condition=None):
 def home():
     return render_template('index.html')
 
+@app.route('/login')
 @app.route('/login.html')
 def login():
     return render_template('login.html')
 
+@app.route('/welcome')
 @app.route('/welcome.html')
 def welcome():
     return render_template('welcome.html')
@@ -139,6 +143,7 @@ def welcome():
 def afterlog():
     return render_template('afterlog.html')
 
+@app.route('/calendar')
 @app.route('/calender.html')
 def calender():
     return render_template('calender.html')
@@ -168,7 +173,7 @@ def add_event():
         duration     = float(data.get('duration'))
         eventday=data.get('day')
         
-        # --- NEW: convert int→datetime at today’s date midnight + minutes ---
+        # --- NEW: convert int→datetime at today's date midnight + minutes ---
         from datetime import time, timedelta
         today_midnight = datetime.combine(datetime.now().date(), time())
         deadline_dt    = today_midnight + timedelta(minutes=raw_deadline)
