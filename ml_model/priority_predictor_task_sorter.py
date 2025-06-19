@@ -2,11 +2,12 @@ import pickle
 import heapq
 import pandas as pd
 from datetime import datetime
+import os
 
 CURRENT_TIME = datetime.now()
 
-# Load the ML model pipeline
-with open("priority_model.pkl", "rb") as f:
+MODEL_DIR = os.path.dirname(os.path.abspath(__file__))
+with open(os.path.join(MODEL_DIR, "priority_model.pkl"), "rb") as f:
     loaded_pipeline = pickle.load(f)
 
 class Event:

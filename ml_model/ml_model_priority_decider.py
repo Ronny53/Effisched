@@ -88,5 +88,4 @@ if (__name__ == "__main__"):
         cv=5, n_jobs=-1
     )
     print("5-fold CV MAE:", np.round(cv_mae, 3))
-    print("Mean CV MAE:", np.round(cv_mae.mean(), 3),
-        "±", np.round(cv_mae.std(), 3))
+    print("Mean CV MAE:", np.round(cv_mae.mean(), 3))

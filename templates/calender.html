@@ -54,6 +54,8 @@
         <div class="event-date">5 May 2025</div>
       </div>
       <div class="events"></div>
+      <!-- Add Allocate My Tasks button below events -->
+      <button class="allocate-tasks-btn" style="margin-top: 16px; width: 100%;">Allocate My Tasks</button>
       <div class="add-event-wrapper">
         <div class="add-event-header">
           <div class="title">Add Event</div>
@@ -61,16 +63,29 @@
         </div>
 
         <div class="add-event-body">
-          <div class="add-event-input">
-            <input type="text" placeholder="Event Name" class="event-name" />
+          <!-- Non-Flexible Event Inputs -->
+          <div class="non-flexible-inputs">
+            <div class="add-event-input">
+              <input type="text" placeholder="Event Name" class="event-name" />
+            </div>
+            <div class="add-event-input">
+              <input type="text" placeholder="Event Time From" class="event-time-from" />
+            </div>
+            <div class="add-event-input">
+              <input type="text" placeholder="Event Time To" class="event-time-to" />
+            </div>
           </div>
-
-          <div class="add-event-input">
-            <input type="text" placeholder="Event Time From" class="event-time-from" />
-          </div>
-
-          <div class="add-event-input">
-            <input type="text" placeholder="Event Time To" class="event-time-to" />
+          <!-- Flexible Event Inputs -->
+          <div class="flexible-inputs" style="display:none;">
+            <div class="add-event-input">
+              <input type="text" placeholder="Event Name" class="event-name-flexible" />
+            </div>
+            <div class="add-event-input">
+              <input type="number" min="1" placeholder="Duration (hours)" class="event-duration" />
+            </div>
+            <div class="add-event-input">
+              <input type="datetime-local" step="1" placeholder="Deadline" class="event-deadline" />
+            </div>
           </div>
           <div class="flexibility-group">
             <label>
@@ -78,7 +93,7 @@
               <span class="flexibilitylabel">Flexible</span>
             </label>
             <label>
-              <input type="radio" name="flexibility" value="not-flexible" class="flexibility-radio-not-flexible">
+              <input type="radio" name="flexibility" value="not-flexible" class="flexibility-radio-not-flexible" checked>
               <span class="flexibilitylabel">Not Flexible</span>
             </label>
           </div>

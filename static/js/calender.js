@@ -22,7 +22,12 @@ const calendar = document.querySelector(".calendar"),
     eventTypeRadios = document.querySelectorAll('input[name="flexibility"]'),
     fixedFields = document.querySelector(".fixed-fields"),
     flexibleFields = document.querySelector(".flexible-fields"),
-    flexibleTasksContainer = document.querySelector(".flexible-tasks");
+    flexibleTasksContainer = document.querySelector(".flexible-tasks"),
+    nonFlexibleInputs = document.querySelector('.non-flexible-inputs'),
+    flexibleInputs = document.querySelector('.flexible-inputs'),
+    flexibleEventName = document.querySelector('.event-name-flexible'),
+    flexibleEventDuration = document.querySelector('.event-duration'),
+    flexibleEventDeadline = document.querySelector('.event-deadline');
 
 let today = new Date();
 let activeDay;
@@ -298,10 +303,9 @@ function timeToMinutes(t) {
 }
 addEventSubmit.addEventListener("click", () => {
     const selected = document.querySelector('input[name="flexibility"]:checked');
-    console.log(selected);
     if (!selected) {
-    alert('Please select an event flexibility.');
-    return;
+        alert('Please select an event flexibility.');
+        return;
     }
     const eventType = selected.value;
     let eventData;
@@ -393,29 +397,35 @@ addEventSubmit.addEventListener("click", () => {
             activeDayEl.classList.add("event");
         }
     } else {
-        const addTaskTitle = document.querySelector(".event-name");
-        const taskTitle = addTaskTitle.value;
-        // const taskDeadline = addTaskDeadline.value;
-        // const taskDuration = addTaskDuration.value;
-        const taskDeadline=timeToMinutes(addEventTo.value);
-        const taskDuration=Math.abs(timeToMinutes(addEventTo.value)-timeToMinutes(addEventFrom.value));
-        if (isNaN(taskDuration) || taskDuration <= 0) {
+        // Flexible event: use new fields
+        const eventTitle = flexibleEventName.value;
+        const eventDuration = flexibleEventDuration.value;
+        let eventDeadline = flexibleEventDeadline.value;
+        if (eventDeadline && eventDeadline.length === 16) { // e.g., 2025-06-30T09:00
+            eventDeadline += ':00';
+        }
+        if (eventTitle === "" || eventDuration === "" || eventDeadline === "") {
+            alert("Please fill all fields for flexible event");
+            return;
+        }
+        // Validate duration
+        if (isNaN(eventDuration) || Number(eventDuration) <= 0) {
             alert("Duration must be a positive number");
             return;
         }
         eventData = {
             type: "flexible",
-            title: taskTitle,
-            deadline: taskDeadline,
-            duration: parseFloat(taskDuration)/60,
-            day:activeDay,
-            month:month,
-            year:year
+            title: eventTitle,
+            duration: Number(eventDuration),
+            deadline: eventDeadline,
+            day: activeDay,
+            month: month + 1,
+            year: year
         };
         addEventWrapper.classList.remove("active");
-        addTaskTitle.value = "";
-        addEventTo.value="";
-        addEventFrom.value="";
+        flexibleEventName.value = "";
+        flexibleEventDuration.value = "";
+        flexibleEventDeadline.value = "";
     }
     fetch("/add-event", {
         method: "POST",
@@ -426,15 +436,6 @@ addEventSubmit.addEventListener("click", () => {
         .then(data => {
             if (data.status === "success") {
                 alert("success sending data to backend");
-                // const list = Array.isArray(data) ? data :(Array.isArray(data.events) ? data.events : []);
-                // // now safely append
-                // list.forEach(ev => eventsArr.push(ev));
-                // eventsArr.push(...JSON.parse(data));
-                // console.log("DATA:",data);
-                // console.log(eventsArr);
-                // saveEvents();
-                // initCalendar();
-                // updateEvents(activeDay);
                 updateFlexibleTasks();
             } else {
                 alert("Failed to add event/task" ,(data.message));
@@ -442,7 +443,7 @@ addEventSubmit.addEventListener("click", () => {
             }
         })
         .catch(error => console.error("Error:", error));
-        updateFlexibleTasks();
+    updateFlexibleTasks();
 });
 
 function updateFlexibleTasks() {
@@ -452,16 +453,7 @@ function updateFlexibleTasks() {
         return response.json();
     })
     .then(data => {
-        const flexibleTasks = data.filter(evt => evt.type === "flexible"&&evt.day>=activeDay);
-        const seen = new Set();
-        const uniqueFlexibleTasks = flexibleTasks.filter(task => {
-            if (seen.has(task.title)) {
-                return false;
-            }
-            seen.add(task.title);
-            return true;
-        });
-        
+        const flexibleTasks = data.filter(evt => evt.type === "flexible");
         let tasksHtml = '';
         flexibleTasks.forEach(task => {
             tasksHtml += `
@@ -480,7 +472,8 @@ function updateFlexibleTasks() {
             </div>
             </div>`;
         });
-        
+        // Replace the content instead of appending
+        eventsContainer.innerHTML = tasksHtml;
         // 4. Deduplicate into your local array
         flexibleTasks.forEach(evt => {
             const exists = eventsArr.some(e =>
@@ -490,46 +483,45 @@ function updateFlexibleTasks() {
                 e.title    === evt.title &&
                 e.type     === evt.type
             );
-            if (!exists) {
-                // eventsArr.push(evt);
-                eventsContainer.innerHTML += tasksHtml;}
-            });
-            
-            console.log("Flexible tasks loaded:", flexibleTasks);
-            console.log("eventsArr after update:", eventsArr);
-        })
-        .catch(error => console.error("Error fetching tasks:", error));
-        initCalendar();
-    } 
-    eventsContainer.addEventListener("click", (e) => {
-        if (e.target.classList.contains("event")) {
-            if (confirm("Are you sure you want to delete this event?")) {
-                const eventTitle = e.target.children[0].children[1].innerHTML;
-                eventsArr.forEach((event) => {
-                    if (
-                        event.day === activeDay &&
-                        event.month === month + 1 &&
-                        event.year === year
-                    ) {
-                        event.events.forEach((item, index) => {
-                            if (item.title === eventTitle) {
-                                event.events.splice(index, 1);
-                            }
-                        });
-                        if (event.events.length === 0) {
-                            eventsArr.splice(eventsArr.indexOf(event), 1);
-                            const activeDayEl = document.querySelector(".day.active");
-                            if (activeDayEl.classList.contains("event")) {
-                                activeDayEl.classList.remove("event");
-                            }
+            if (!exists) eventsArr.push(evt);
+        });
+        console.log("Flexible tasks loaded:", flexibleTasks);
+        console.log("eventsArr after update:", eventsArr);
+    })
+    .catch(error => console.error("Error fetching tasks:", error));
+    initCalendar();
+} 
+
+eventsContainer.addEventListener("click", (e) => {
+    if (e.target.classList.contains("event")) {
+        if (confirm("Are you sure you want to delete this event?")) {
+            const eventTitle = e.target.children[0].children[1].innerHTML;
+            eventsArr.forEach((event) => {
+                if (
+                    event.day === activeDay &&
+                    event.month === month + 1 &&
+                    event.year === year
+                ) {
+                    event.events.forEach((item, index) => {
+                        if (item.title === eventTitle) {
+                            event.events.splice(index, 1);
+                        }
+                    });
+                    if (event.events.length === 0) {
+                        eventsArr.splice(eventsArr.indexOf(event), 1);
+                        const activeDayEl = document.querySelector(".day.active");
+                        if (activeDayEl.classList.contains("event")) {
+                            activeDayEl.classList.remove("event");
                         }
                     }
-                });
-                updateEvents(activeDay);
-            }
+                }
+            });
+            updateEvents(activeDay);
         }
-    });
-    function saveEvents() {
+    }
+});
+
+function saveEvents() {
     localStorage.setItem("fixedevents", JSON.stringify(eventsArr));
 }
 
@@ -548,6 +540,73 @@ function convertTime(time) {
     let timeFormat = timeHour >= 12 ? "PM" : "AM";
     timeHour = timeHour % 12 || 12;
     return timeHour + ":" + timeMin + " " + timeFormat;
+}
+
+// Add event listeners to radio buttons to toggle input fields
+const flexibilityRadios = document.querySelectorAll('input[name="flexibility"]');
+flexibilityRadios.forEach(radio => {
+    radio.addEventListener('change', function() {
+        if (this.value === 'flexible') {
+            nonFlexibleInputs.style.display = 'none';
+            flexibleInputs.style.display = 'block';
+        } else {
+            nonFlexibleInputs.style.display = 'block';
+            flexibleInputs.style.display = 'none';
+        }
+    });
+});
+
+const allocateTasksBtn = document.querySelector('.allocate-tasks-btn');
+if (allocateTasksBtn) {
+    allocateTasksBtn.addEventListener('click', function() {
+        let freeTime = prompt('Enter your available free time (in hours):');
+        if (!freeTime || isNaN(freeTime) || Number(freeTime) <= 0) {
+            alert('Please enter a valid number of hours.');
+            return;
+        }
+        fetch('/allocate-tasks', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ free_time: freeTime })
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.status === 'success') {
+                alert('Tasks allocated!');
+                // Update the UI to show allocated hours for each flexible event
+                showAllocatedHours(data.events);
+            } else {
+                alert('Allocation failed.');
+            }
+        })
+        .catch(err => {
+            alert('Error allocating tasks.');
+            console.error(err);
+        });
+    });
+}
+
+function showAllocatedHours(events) {
+    // Only update flexible events
+    const flexEvents = events.filter(e => e.type === 'flexible');
+    // Find all event elements and update their display
+    // This assumes event titles are unique
+    document.querySelectorAll('.event').forEach(evDiv => {
+        const titleEl = evDiv.querySelector('.event-title');
+        if (!titleEl) return;
+        const event = flexEvents.find(e => e.title === titleEl.textContent);
+        if (event && event.allocated_hours != null) {
+            let allocSpan = evDiv.querySelector('.allocated-hours');
+            if (!allocSpan) {
+                allocSpan = document.createElement('span');
+                allocSpan.className = 'allocated-hours';
+                allocSpan.style.display = 'block';
+                allocSpan.style.fontWeight = 'bold';
+                evDiv.appendChild(allocSpan);
+            }
+            allocSpan.textContent = `Allocated: ${event.allocated_hours}h`;
+        }
+    });
 }
 
 initCalendar();

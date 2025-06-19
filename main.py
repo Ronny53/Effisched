@@ -4,19 +4,7 @@ import pickle
 import pandas as pd
 from datetime import datetime
 import sqlite3
-CREATE_SQL = '''
-CREATE TABLE IF NOT EXISTS events (
-    id         INTEGER PRIMARY KEY AUTOINCREMENT,
-    type       TEXT,
-    title      TEXT,
-    deadline   INTEGER,
-    duration   INTEGER,
-    day        INTEGER,
-    month      INTEGER,
-    year       INTEGER,
-    priority   INTEGER
-)
-'''
+
 app = Flask(__name__)
 CORS(app)
 
@@ -24,20 +12,25 @@ def get_db_connection():
     conn = sqlite3.connect('flexibleevents.db')
     conn.row_factory = sqlite3.Row
     return conn
+
+# Drop and recreate the events table with the correct schema
 with get_db_connection() as con:
+    con.execute('DROP TABLE IF EXISTS events')
     con.execute('''
 CREATE TABLE IF NOT EXISTS events (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     type TEXT,
     title TEXT,
-    deadline INTEGER,
-    duration INTEGER,
+    deadline TEXT,
+    duration REAL,
     day INTEGER,
     month INTEGER,
     year INTEGER,
-    priority INTEGER
+    priority INTEGER,
+    allocated_hours REAL
 )
 ''')
+
 # Load model
 with open("ml_model\\priority_model.pkl", "rb") as f:
     priority_model = pickle.load(f)
@@ -69,7 +62,6 @@ def loadEventsFromDatabase():
     con.close()
             
 def savetoDatabase(new_event):
-    # Check if the event already exists
     con=get_db_connection()
     cur=con.cursor()
     cur.execute('''
@@ -86,14 +78,11 @@ def savetoDatabase(new_event):
         new_event['year'],
         new_event['priority']
     ))
-    
-
     if cur.fetchone():
         return False
-
     cur.execute('''
-        INSERT INTO events (type, title, deadline, duration, day, month, year, priority)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+        INSERT INTO events (type, title, deadline, duration, day, month, year, priority, allocated_hours)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
     ''', (
         new_event['type'],
         new_event['title'],
@@ -102,7 +91,8 @@ def savetoDatabase(new_event):
         new_event['day'],
         new_event['month'],
         new_event['year'],
-        new_event['priority']
+        new_event['priority'],
+        new_event.get('allocated_hours')
     ))
     con.commit()
     con.close()
@@ -164,26 +154,22 @@ def add_event():
             'day': data.get('day'),
             'month': data.get('month'),
             'year': data.get('year'),
-            'priority': None
+            'priority': None,
+            'deadline': None,
+            'duration': None,
+            'allocated_hours': None
         }
-    
     elif event_type == "flexible":
         title        = data.get('title')
-        raw_deadline = data.get('deadline')    # now an int: minutes past midnight
+        deadline     = data.get('deadline')  # ISO string
         duration     = float(data.get('duration'))
-        eventday=data.get('day')
-        
-        # --- NEW: convert int→datetime at today's date midnight + minutes ---
-        from datetime import time, timedelta
-        today_midnight = datetime.combine(datetime.now().date(), time())
-        deadline_dt    = today_midnight + timedelta(minutes=raw_deadline)
-        
-
-        # now you can safely subtract
+        eventday     = data.get('day')
+        # Calculate priority
+        from datetime import datetime
+        deadline_dt = datetime.fromisoformat(deadline)
         hours_remaining = (deadline_dt - datetime.now()).total_seconds() / 3600
         hours_remaining = max(1, hours_remaining)
         time_pressure   = duration / hours_remaining
-
         features = {
             'duration':        duration,
             'hours_remaining': hours_remaining,
@@ -191,17 +177,16 @@ def add_event():
         }
         X = pd.DataFrame([features])
         priority = int(round(priority_model.predict(X)[0]))
-
         event = {
             'day': data.get('day'),
             'month': data.get('month'),
             'year': data.get('year'),
             'type':     'flexible',
             'title':    title,
-            'deadline': raw_deadline,  
+            'deadline': deadline,  # store as ISO string
             'duration': duration,
-            'priority': priority
-            
+            'priority': priority,
+            'allocated_hours': None
         }
         print("wit priority ",event)
         print("EventsList :",EventsList)
@@ -249,6 +234,43 @@ def get_events():
 #         "message": f"Received {len(events_list)} events",
 #         "total_stored": len(EventsList)
 #     })
+
+@app.route('/allocate-tasks', methods=['POST'])
+def allocate_tasks():
+    data = request.get_json()
+    free_time = float(data.get('free_time'))
+    # Fetch all flexible events from DB
+    con = get_db_connection()
+    cur = con.cursor()
+    cur.execute("SELECT id, title, deadline, duration, priority FROM events WHERE type = 'flexible'")
+    rows = cur.fetchall()
+    flexible_events = []
+    id_map = {}
+    for row in rows:
+        event = {
+            'id': row['id'],
+            'event_name': row['title'],
+            'deadline': row['deadline'],
+            'duration': float(row['duration']),
+            'priority': row['priority']
+        }
+        flexible_events.append(event)
+        id_map[row['title']] = row['id']
+    # Call time_allocator.py as a module
+    from ml_model import time_allocator
+    allocations = time_allocator.allocate_hours(flexible_events, free_time)
+    # allocations: list of dicts with event_name and allocated_hours
+    # Update DB
+    for alloc in allocations:
+        event_id = id_map.get(alloc['event_name'])
+        if event_id is not None:
+            cur.execute("UPDATE events SET allocated_hours = ? WHERE id = ?", (alloc['allocated_hours'], event_id))
+    con.commit()
+    # Fetch updated events
+    cur.execute("SELECT * FROM events WHERE type = 'flexible'")
+    updated_events = [dict(row) for row in cur.fetchall()]
+    con.close()
+    return jsonify({'status': 'success', 'events': updated_events})
 
 if __name__ == '__main__':
     app.run(debug=True)

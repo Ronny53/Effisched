@@ -1,501 +1,1001 @@
-task,duration,deadline,priority
-Assignment,10,2025-05-23 08:52,1
-Research Paper,11,2025-05-23 09:22,1
-Internship Task,11,2025-05-23 19:37,1
-Project Work,8,2025-05-23 18:37,1
-Hackathon,4,2025-05-23 12:37,1
-Report Writing,9,2025-05-23 14:07,1
-Hackathon,12,2025-05-23 08:52,1
-Assignment,3,2025-05-23 10:07,1
-Internship Task,10,2025-05-23 15:22,1
-Presentation,7,2025-05-23 09:37,1
-Presentation,12,2025-05-23 13:37,1
-Internship Task,10,2025-05-23 12:52,1
-Assignment,7,2025-05-23 10:07,1
-Project Work,8,2025-05-23 11:52,1
-Presentation,5,2025-05-23 15:52,1
-Presentation,11,2025-05-23 15:22,1
-Project Work,8,2025-05-23 18:52,1
-Presentation,5,2025-05-23 08:52,1
-Code Review,9,2025-05-23 14:22,1
-Report Writing,6,2025-05-23 17:22,1
-Report Writing,1,2025-05-23 10:52,1
-Online Course,8,2025-05-23 12:07,1
-Hackathon,8,2025-05-23 16:07,1
-Code Review,3,2025-05-23 14:07,1
-Code Review,3,2025-05-23 13:52,1
-Online Course,4,2025-05-23 14:22,1
-Presentation,12,2025-05-23 15:07,1
-Report Writing,7,2025-05-23 15:52,1
-Presentation,6,2025-05-23 14:37,1
-Report Writing,7,2025-05-23 13:07,1
-Group Study,2,2025-05-23 14:22,1
-Assignment,11,2025-05-23 18:37,1
-Online Course,12,2025-05-23 10:22,1
-Internship Task,7,2025-05-23 11:52,1
-Hackathon,8,2025-05-23 15:07,1
-Presentation,6,2025-05-23 11:37,1
-Group Study,5,2025-05-23 10:22,1
-Project Work,5,2025-05-23 10:37,1
-Research Paper,10,2025-05-23 19:37,1
-Research Paper,4,2025-05-23 10:37,1
-Code Review,2,2025-05-23 10:22,1
-Assignment,10,2025-05-23 10:52,1
-Online Course,7,2025-05-23 18:07,1
-Report Writing,12,2025-05-23 14:22,1
-Internship Task,1,2025-05-23 11:22,1
-Assignment,8,2025-05-23 11:22,1
-Presentation,5,2025-05-23 11:22,1
-Internship Task,12,2025-05-23 16:52,1
-Internship Task,2,2025-05-23 12:07,1
-Report Writing,12,2025-05-24 09:37,2
-Code Review,4,2025-05-23 18:52,2
-Project Work,11,2025-05-24 09:07,2
-Research Paper,4,2025-05-23 18:22,2
-Research Paper,3,2025-05-23 18:52,2
-Assignment,4,2025-05-23 17:52,2
-Hackathon,11,2025-05-24 09:52,2
-Internship Task,11,2025-05-24 09:22,2
-Internship Task,5,2025-05-23 18:52,2
-Report Writing,12,2025-05-24 13:22,3
-Online Course,8,2025-05-24 09:07,3
-Presentation,12,2025-05-24 14:37,3
-Presentation,9,2025-05-24 11:22,3
-Hackathon,10,2025-05-24 10:07,3
-Group Study,11,2025-05-24 14:37,3
-Research Paper,7,2025-05-24 09:07,3
-Code Review,9,2025-05-24 11:37,3
-Research Paper,10,2025-05-24 14:52,3
-Assignment,10,2025-05-24 12:52,3
-Assignment,8,2025-05-24 11:22,3
-Online Course,11,2025-05-24 18:07,3
-Presentation,10,2025-05-24 18:52,3
-Report Writing,2,2025-05-23 17:22,3
-Assignment,9,2025-05-24 15:07,3
-Group Study,12,2025-05-24 14:22,3
-Report Writing,8,2025-05-24 11:22,3
-Assignment,9,2025-05-24 10:07,3
-Presentation,9,2025-05-24 11:52,3
-Assignment,1,2025-05-23 15:07,3
-Internship Task,10,2025-05-24 09:22,3
-Internship Task,9,2025-05-24 11:22,3
-Presentation,9,2025-05-24 09:22,3
-Code Review,9,2025-05-24 13:52,3
-Group Study,11,2025-05-24 18:52,3
-Research Paper,7,2025-05-24 14:07,4
-Internship Task,12,2025-05-25 10:22,4
-Hackathon,8,2025-05-24 19:22,4
-Report Writing,7,2025-05-24 15:37,4
-Assignment,1,2025-05-23 16:22,4
-Code Review,7,2025-05-24 16:37,4
-Internship Task,1,2025-05-23 16:52,4
-Code Review,1,2025-05-23 16:07,4
-Research Paper,9,2025-05-24 16:37,4
-Code Review,12,2025-05-25 12:22,4
-Online Course,9,2025-05-24 18:37,4
-Report Writing,9,2025-05-24 18:22,4
-Hackathon,7,2025-05-24 13:22,4
-Code Review,12,2025-05-25 09:37,4
-Report Writing,7,2025-05-24 14:22,4
-Online Course,12,2025-05-25 08:52,4
-Online Course,9,2025-05-24 18:07,4
-Assignment,7,2025-05-24 17:52,5
-Code Review,10,2025-05-25 11:37,5
-Online Course,11,2025-05-25 14:52,5
-Presentation,5,2025-05-24 12:52,5
-Assignment,10,2025-05-25 13:52,5
-Hackathon,11,2025-05-25 15:07,5
-Project Work,11,2025-05-25 12:22,5
-Hackathon,11,2025-05-25 18:37,5
-Hackathon,5,2025-05-24 13:37,5
-Online Course,10,2025-05-25 08:52,5
-Online Course,6,2025-05-24 13:07,5
-Presentation,10,2025-05-25 14:07,5
-Presentation,10,2025-05-25 11:37,5
-Research Paper,7,2025-05-24 17:52,5
-Online Course,11,2025-05-25 14:37,5
-Research Paper,12,2025-05-25 19:37,5
-Internship Task,6,2025-05-24 15:07,5
-Research Paper,9,2025-05-25 09:22,5
-Group Study,7,2025-05-24 19:07,5
-Online Course,11,2025-05-25 16:22,5
-Presentation,11,2025-05-25 19:37,5
-Group Study,11,2025-05-25 19:22,5
-Online Course,9,2025-05-25 16:37,6
-Code Review,1,2025-05-23 18:52,6
-Hackathon,10,2025-05-25 15:22,6
-Presentation,9,2025-05-25 14:07,6
-Assignment,5,2025-05-24 15:07,6
-Internship Task,10,2025-05-25 16:22,6
-Online Course,9,2025-05-25 15:37,6
-Presentation,10,2025-05-25 19:22,6
-Project Work,9,2025-05-25 17:22,6
-Presentation,9,2025-05-25 13:37,6
-Hackathon,5,2025-05-24 18:07,6
-Code Review,8,2025-05-25 10:07,6
-Hackathon,9,2025-05-25 14:22,6
-Online Course,8,2025-05-25 11:07,6
-Code Review,10,2025-05-25 17:07,6
-Online Course,8,2025-05-25 10:07,6
-Hackathon,12,2025-05-26 08:52,6
-Research Paper,12,2025-05-26 10:37,6
-Assignment,5,2025-05-24 14:22,6
-Hackathon,9,2025-05-25 16:52,6
-Group Study,9,2025-05-25 13:22,6
-Internship Task,9,2025-05-25 12:37,6
-Online Course,1,2025-05-23 18:52,6
-Presentation,7,2025-05-25 10:37,7
-Presentation,8,2025-05-25 18:37,7
-Code Review,11,2025-05-26 11:22,7
-Assignment,12,2025-05-26 17:52,7
-Hackathon,12,2025-05-26 13:22,7
-Code Review,11,2025-05-26 09:52,7
-Project Work,4,2025-05-24 13:22,7
-Project Work,7,2025-05-25 10:22,7
-Group Study,3,2025-05-24 09:52,7
-Report Writing,8,2025-05-25 19:37,7
-Online Course,12,2025-05-26 17:07,7
-Presentation,8,2025-05-25 14:52,7
-Internship Task,11,2025-05-26 15:22,7
-Assignment,1,2025-05-23 19:07,7
-Code Review,8,2025-05-25 13:07,7
-Assignment,11,2025-05-26 11:07,7
-Research Paper,4,2025-05-24 13:07,7
-Presentation,12,2025-05-26 14:37,7
-Project Work,8,2025-05-25 18:07,7
-Internship Task,3,2025-05-24 12:07,8
-Hackathon,7,2025-05-25 14:22,8
-Assignment,6,2025-05-25 09:22,8
-Hackathon,12,2025-05-27 09:07,8
-Research Paper,6,2025-05-25 09:22,8
-Internship Task,12,2025-05-27 09:22,8
-Internship Task,7,2025-05-25 16:22,8
-Group Study,10,2025-05-26 15:37,8
-Research Paper,3,2025-05-24 12:52,8
-Assignment,6,2025-05-25 10:37,8
-Online Course,10,2025-05-26 17:22,8
-Project Work,12,2025-05-27 09:07,8
-Online Course,12,2025-05-27 12:07,8
-Project Work,10,2025-05-26 16:37,8
-Project Work,3,2025-05-24 12:22,8
-Code Review,4,2025-05-24 19:07,8
-Presentation,3,2025-05-24 12:52,8
-Online Course,7,2025-05-25 18:52,8
-Internship Task,6,2025-05-25 12:52,8
-Research Paper,12,2025-05-27 19:22,9
-Code Review,12,2025-05-27 14:37,9
-Presentation,9,2025-05-26 15:52,9
-Research Paper,9,2025-05-26 18:52,9
-Presentation,8,2025-05-26 11:37,9
-Online Course,6,2025-05-25 17:07,9
-Group Study,9,2025-05-26 14:52,9
-Report Writing,6,2025-05-25 14:37,9
-Code Review,12,2025-05-27 14:52,9
-Hackathon,11,2025-05-27 14:37,9
-Hackathon,12,2025-05-27 19:07,9
-Project Work,6,2025-05-25 14:07,9
-Online Course,12,2025-05-27 14:52,9
-Project Work,6,2025-05-25 17:07,9
-Report Writing,9,2025-05-26 13:37,9
-Online Course,6,2025-05-25 13:07,9
-Research Paper,9,2025-05-26 13:07,9
-Group Study,12,2025-05-27 19:07,9
-Presentation,12,2025-05-28 10:22,10
-Internship Task,10,2025-05-27 12:22,10
-Assignment,12,2025-05-28 08:52,10
-Project Work,8,2025-05-26 17:07,10
-Group Study,12,2025-05-28 10:37,10
-Online Course,7,2025-05-26 09:22,10
-Group Study,5,2025-05-25 13:52,10
-Project Work,12,2025-05-28 11:22,10
-Research Paper,10,2025-05-27 14:52,10
-Group Study,10,2025-05-27 11:52,10
-Presentation,5,2025-05-25 10:52,10
-Hackathon,8,2025-05-26 18:37,10
-Internship Task,9,2025-05-27 14:22,11
-Project Work,11,2025-05-28 10:22,11
-Research Paper,7,2025-05-26 14:22,11
-Hackathon,5,2025-05-25 18:37,11
-Assignment,11,2025-05-28 09:07,11
-Group Study,9,2025-05-27 14:37,11
-Code Review,2,2025-05-24 10:37,11
-Project Work,10,2025-05-27 17:37,11
-Report Writing,5,2025-05-25 15:07,11
-Internship Task,9,2025-05-27 14:22,11
-Hackathon,12,2025-05-28 14:22,11
-Internship Task,11,2025-05-28 10:37,11
-Hackathon,11,2025-05-28 11:37,11
-Presentation,10,2025-05-27 19:22,11
-Internship Task,3,2025-05-24 19:22,11
-Group Study,9,2025-05-27 10:22,11
-Presentation,8,2025-05-27 09:22,12
-Internship Task,4,2025-05-25 12:37,12
-Assignment,12,2025-05-29 11:22,12
-Online Course,8,2025-05-27 11:52,12
-Group Study,8,2025-05-27 11:52,12
-Internship Task,4,2025-05-25 11:22,12
-Research Paper,8,2025-05-27 12:22,12
-Project Work,4,2025-05-25 10:37,12
-Presentation,4,2025-05-25 12:52,12
-Online Course,4,2025-05-25 10:07,12
-Assignment,11,2025-05-28 15:22,12
-Online Course,10,2025-05-28 10:22,12
-Internship Task,11,2025-05-28 16:52,12
-Online Course,2,2025-05-24 11:07,12
-Report Writing,9,2025-05-27 16:22,12
-Hackathon,2,2025-05-24 13:07,13
-Presentation,10,2025-05-28 13:07,13
-Hackathon,8,2025-05-27 15:52,13
-Code Review,10,2025-05-28 15:37,13
-Assignment,12,2025-05-29 19:22,13
-Online Course,8,2025-05-27 15:37,13
-Hackathon,12,2025-05-29 18:22,13
-Code Review,11,2025-05-29 11:07,13
-Project Work,6,2025-05-26 16:07,13
-Report Writing,10,2025-05-28 16:37,13
-Project Work,10,2025-05-28 16:07,13
-Research Paper,12,2025-05-29 14:37,13
-Presentation,11,2025-05-29 11:52,13
-Group Study,4,2025-05-25 16:07,13
-Report Writing,10,2025-05-28 17:52,13
-Group Study,10,2025-05-28 15:37,13
-Assignment,10,2025-05-28 17:07,13
-Presentation,12,2025-05-29 15:52,13
-Presentation,10,2025-05-28 19:37,13
-Assignment,8,2025-05-27 14:22,13
-Code Review,12,2025-05-29 13:22,13
-Research Paper,12,2025-05-29 18:52,13
-Code Review,11,2025-05-29 11:07,13
-Online Course,9,2025-05-28 17:52,14
-Code Review,9,2025-05-28 14:52,14
-Internship Task,9,2025-05-28 12:22,14
-Report Writing,7,2025-05-27 12:07,14
-Online Course,7,2025-05-27 13:37,14
-Online Course,7,2025-05-27 10:37,14
-Assignment,11,2025-05-29 12:22,14
-Online Course,9,2025-05-28 15:07,14
-Code Review,5,2025-05-26 10:22,14
-Code Review,4,2025-05-25 17:37,14
-Project Work,2,2025-05-24 15:52,14
-Assignment,7,2025-05-27 08:52,14
-Presentation,6,2025-05-26 19:07,14
-Project Work,11,2025-05-29 14:52,14
-Hackathon,9,2025-05-28 17:07,14
-Group Study,2,2025-05-24 15:22,14
-Online Course,11,2025-05-29 14:07,14
-Report Writing,7,2025-05-27 14:07,14
-Online Course,11,2025-05-29 18:22,14
-Report Writing,7,2025-05-27 10:52,14
-Project Work,7,2025-05-27 10:37,14
-Project Work,11,2025-05-29 16:52,14
-Hackathon,5,2025-05-26 09:52,14
-Assignment,5,2025-05-26 12:07,15
-Internship Task,9,2025-05-28 19:22,15
-Research Paper,5,2025-05-26 13:07,15
-Code Review,7,2025-05-27 18:37,15
-Presentation,2,2025-05-24 18:37,15
-Presentation,7,2025-05-27 19:37,15
-Group Study,5,2025-05-26 15:22,15
-Online Course,8,2025-05-28 08:52,15
-Project Work,7,2025-05-27 15:07,15
-Research Paper,10,2025-05-29 10:37,15
-Hackathon,10,2025-05-29 09:52,15
-Project Work,5,2025-05-26 12:07,15
-Assignment,5,2025-05-26 11:22,15
-Code Review,7,2025-05-27 15:22,15
-Code Review,7,2025-05-27 19:22,15
-Assignment,3,2025-05-25 09:52,15
-Research Paper,7,2025-05-27 15:52,15
-Assignment,5,2025-05-26 17:52,16
-Hackathon,5,2025-05-26 18:52,16
-Group Study,9,2025-05-29 11:07,16
-Code Review,6,2025-05-27 08:52,16
-Research Paper,6,2025-05-27 11:52,16
-Project Work,9,2025-05-29 09:07,16
-Report Writing,6,2025-05-27 10:22,16
-Internship Task,5,2025-05-26 16:22,16
-Research Paper,9,2025-05-29 10:22,16
-Assignment,5,2025-05-26 17:37,16
-Report Writing,6,2025-05-27 10:07,16
-Research Paper,5,2025-05-26 18:07,16
-Project Work,9,2025-05-29 09:07,16
-Research Paper,5,2025-05-26 16:37,16
-Hackathon,6,2025-05-27 16:07,17
-Project Work,9,2025-05-29 18:22,17
-Assignment,9,2025-05-29 15:07,17
-Code Review,7,2025-05-28 11:37,17
-Project Work,9,2025-05-29 14:52,17
-Code Review,6,2025-05-27 17:52,17
-Research Paper,9,2025-05-29 16:22,17
-Hackathon,7,2025-05-28 11:07,17
-Research Paper,6,2025-05-27 14:52,17
-Code Review,6,2025-05-27 18:22,17
-Internship Task,3,2025-05-25 15:07,17
-Report Writing,6,2025-05-27 18:07,17
-Assignment,8,2025-05-29 12:07,18
-Hackathon,3,2025-05-25 18:07,18
-Internship Task,7,2025-05-28 13:52,18
-Hackathon,7,2025-05-28 18:22,18
-Hackathon,4,2025-05-26 12:22,18
-Project Work,8,2025-05-29 10:52,18
-Hackathon,7,2025-05-28 18:07,18
-Project Work,8,2025-05-29 09:37,18
-Code Review,5,2025-05-27 10:07,19
-Internship Task,4,2025-05-26 16:52,19
-Research Paper,5,2025-05-27 10:37,19
-Hackathon,8,2025-05-29 13:37,19
-Assignment,5,2025-05-27 09:22,19
-Online Course,4,2025-05-26 14:07,19
-Code Review,8,2025-05-29 14:52,19
-Internship Task,3,2025-05-25 19:22,19
-Report Writing,8,2025-05-29 15:52,19
-Report Writing,8,2025-05-29 15:37,19
-Research Paper,5,2025-05-27 13:37,20
-Group Study,5,2025-05-27 14:22,20
-Internship Task,4,2025-05-26 17:37,20
-Hackathon,5,2025-05-27 15:07,20
-Hackathon,6,2025-05-28 12:07,20
-Online Course,4,2025-05-26 18:22,20
-Presentation,7,2025-05-29 13:37,21
-Assignment,6,2025-05-28 18:22,21
-Assignment,6,2025-05-28 17:37,21
-Project Work,5,2025-05-27 17:22,21
-Online Course,7,2025-05-29 14:52,21
-Report Writing,6,2025-05-28 14:37,21
-Project Work,6,2025-05-28 13:37,21
-Group Study,6,2025-05-28 18:07,21
-Assignment,6,2025-05-28 15:52,21
-Code Review,6,2025-05-28 16:07,21
-Presentation,7,2025-05-29 14:07,21
-Research Paper,7,2025-05-29 17:22,22
-Report Writing,1,2025-05-24 10:52,22
-Hackathon,7,2025-05-29 16:22,22
-Online Course,7,2025-05-29 18:52,22
-Online Course,2,2025-05-25 09:07,23
-Online Course,3,2025-05-26 10:52,24
-Online Course,2,2025-05-25 12:07,24
-Code Review,4,2025-05-27 09:37,24
-Hackathon,3,2025-05-26 11:22,24
-Code Review,3,2025-05-26 12:22,24
-Report Writing,4,2025-05-27 11:52,24
-Internship Task,4,2025-05-27 11:22,24
-Hackathon,3,2025-05-26 11:07,24
-Research Paper,1,2025-05-24 12:22,24
-Assignment,3,2025-05-26 12:52,24
-Report Writing,5,2025-05-28 09:37,24
-Project Work,6,2025-05-29 14:52,25
-Group Study,6,2025-05-29 15:07,25
-Report Writing,3,2025-05-26 14:52,25
-Online Course,4,2025-05-27 13:22,25
-Presentation,6,2025-05-29 13:22,25
-Project Work,5,2025-05-28 13:22,25
-Assignment,4,2025-05-27 14:37,25
-Report Writing,4,2025-05-27 13:22,25
-Report Writing,6,2025-05-29 13:37,25
-Hackathon,4,2025-05-27 15:22,25
-Assignment,4,2025-05-27 16:22,25
-Report Writing,5,2025-05-28 18:52,26
-Project Work,5,2025-05-28 18:22,26
-Group Study,2,2025-05-25 15:07,26
-Project Work,3,2025-05-26 19:37,27
-Assignment,2,2025-05-25 17:22,27
-Project Work,3,2025-05-26 19:07,27
-Internship Task,2,2025-05-25 19:07,28
-Project Work,5,2025-05-29 13:52,29
-Internship Task,5,2025-05-29 13:52,29
-Assignment,1,2025-05-24 17:37,29
-Project Work,1,2025-05-24 17:37,29
-Online Course,5,2025-05-29 12:22,29
-Group Study,1,2025-05-24 18:37,30
-Online Course,4,2025-05-28 10:22,30
-Group Study,5,2025-05-29 17:37,30
-Hackathon,5,2025-05-29 18:07,30
-Online Course,4,2025-05-28 14:37,31
-Code Review,3,2025-05-27 11:22,32
-Presentation,4,2025-05-28 19:22,32
-Hackathon,4,2025-05-28 19:37,32
-Hackathon,2,2025-05-26 08:52,34
-Online Course,3,2025-05-27 18:37,34
-Research Paper,4,2025-05-29 11:07,36
-Online Course,4,2025-05-29 10:52,36
-Group Study,4,2025-05-29 15:22,37
-Project Work,4,2025-05-29 15:22,37
-Presentation,2,2025-05-26 14:22,37
-Hackathon,4,2025-05-29 13:22,37
-Presentation,4,2025-05-29 14:37,37
-Internship Task,2,2025-05-26 16:52,38
-Hackathon,4,2025-05-29 17:07,38
-Hackathon,2,2025-05-26 16:52,38
-Report Writing,3,2025-05-28 09:22,39
-Project Work,2,2025-05-26 18:52,39
-Hackathon,3,2025-05-28 10:37,40
-Code Review,2,2025-05-26 19:07,40
-Report Writing,3,2025-05-28 11:07,40
-Hackathon,3,2025-05-28 13:07,41
-Internship Task,3,2025-05-28 16:37,42
-Internship Task,3,2025-05-28 19:37,43
-Research Paper,1,2025-05-25 09:52,45
-Project Work,2,2025-05-27 09:07,47
-Code Review,2,2025-05-27 10:37,47
-Project Work,3,2025-05-29 09:37,47
-Code Review,2,2025-05-27 09:52,47
-Hackathon,2,2025-05-27 12:52,48
-Project Work,3,2025-05-29 11:07,48
-Report Writing,3,2025-05-29 10:37,48
-Group Study,3,2025-05-29 12:22,48
-Internship Task,1,2025-05-25 14:37,50
-Group Study,3,2025-05-29 17:22,50
-Hackathon,3,2025-05-29 16:07,50
-Project Work,3,2025-05-29 16:37,50
-Internship Task,3,2025-05-29 18:07,50
-Code Review,3,2025-05-29 18:37,50
-Research Paper,2,2025-05-27 17:52,51
-Online Course,2,2025-05-27 17:22,51
-Research Paper,1,2025-05-25 15:52,51
-Project Work,3,2025-05-29 19:37,51
-Project Work,2,2025-05-27 17:52,51
-Online Course,2,2025-05-27 18:37,51
-Assignment,1,2025-05-25 15:22,51
-Project Work,1,2025-05-25 16:07,52
-Report Writing,1,2025-05-25 18:37,54
-Internship Task,1,2025-05-25 18:52,54
-Research Paper,1,2025-05-25 18:37,54
-Assignment,2,2025-05-28 09:07,59
-Presentation,2,2025-05-28 09:37,59
-Assignment,2,2025-05-28 11:22,60
-Research Paper,2,2025-05-28 11:22,60
-Assignment,2,2025-05-28 12:37,60
-Code Review,2,2025-05-28 18:52,63
-Research Paper,2,2025-05-28 19:22,64
-Assignment,2,2025-05-29 10:22,71
-Research Paper,2,2025-05-29 10:52,71
-Assignment,2,2025-05-29 10:22,71
-Online Course,1,2025-05-26 12:07,72
-Code Review,2,2025-05-29 13:37,73
-Hackathon,2,2025-05-29 14:37,73
-Assignment,1,2025-05-26 13:52,73
-Hackathon,2,2025-05-29 14:22,73
-Hackathon,2,2025-05-29 13:52,73
-Code Review,1,2025-05-26 14:22,74
-Report Writing,2,2025-05-29 15:07,74
-Internship Task,2,2025-05-29 18:22,75
-Internship Task,1,2025-05-26 16:22,76
-Assignment,1,2025-05-26 17:07,77
-Presentation,1,2025-05-26 17:07,77
-Assignment,1,2025-05-27 09:22,93
-Group Study,1,2025-05-27 12:52,96
-Group Study,1,2025-05-27 13:07,97
-Research Paper,1,2025-05-27 14:37,98
-Group Study,1,2025-05-27 18:52,102
-Code Review,1,2025-05-28 11:52,119
-Presentation,1,2025-05-28 12:07,120
-Report Writing,1,2025-05-28 12:07,120
-Hackathon,1,2025-05-28 15:07,123
-Presentation,1,2025-05-28 16:52,124
-Assignment,1,2025-05-28 18:07,126
-Research Paper,1,2025-05-28 19:37,127
-Group Study,1,2025-05-29 09:07,141
-Internship Task,1,2025-05-29 11:52,143
-Research Paper,1,2025-05-29 15:52,147
-Report Writing,1,2025-05-29 15:07,147
-Report Writing,1,2025-05-29 18:37,150
+task,duration,deadline,priority,allocated_hours
+Report Writing,9,2025-06-20 10:00,3,5
+Presentation,11,2025-06-21 10:00,5,4
+Report Writing,1,2025-06-23 13:30,100,1
+Research Paper,11,2025-06-24 17:30,12,2
+Group Study,1,2025-06-20 18:00,33,1
+Presentation,4,2025-06-25 08:00,36,1
+Group Study,7,2025-06-24 18:45,19,2
+Assignment,4,2025-06-20 08:45,6,4
+Internship Task,8,2025-06-21 08:45,6,4
+Report Writing,4,2025-06-24 16:15,32,1
+Research Paper,6,2025-06-19 10:45,1,6
+Hackathon,6,2025-06-19 14:30,1,6
+Group Study,1,2025-06-21 15:00,54,1
+Assignment,10,2025-06-25 12:15,15,2
+Internship Task,4,2025-06-22 09:45,18,2
+Code Review,2,2025-06-24 13:45,62,1
+Hackathon,1,2025-06-20 18:15,33,1
+Research Paper,7,2025-06-24 10:30,18,2
+Online Course,10,2025-06-24 15:45,13,2
+Research Paper,6,2025-06-25 09:30,24,1
+Research Paper,5,2025-06-25 11:30,30,1
+Assignment,10,2025-06-20 14:30,3,5
+Presentation,11,2025-06-24 14:00,12,2
+Hackathon,9,2025-06-24 08:15,14,2
+Hackathon,11,2025-06-20 17:15,3,6
+Project Work,11,2025-06-24 11:30,12,2
+Internship Task,5,2025-06-23 17:45,21,1
+Code Review,10,2025-06-24 14:45,13,2
+Project Work,3,2025-06-19 08:30,1,3
+Online Course,7,2025-06-21 16:15,8,3
+Assignment,2,2025-06-23 08:15,48,1
+Internship Task,8,2025-06-19 16:15,1,8
+Report Writing,8,2025-06-23 09:45,12,2
+Hackathon,3,2025-06-19 13:00,2,3
+Presentation,9,2025-06-25 10:15,17,2
+Internship Task,6,2025-06-25 14:15,25,1
+Project Work,7,2025-06-25 12:30,21,1
+Report Writing,11,2025-06-24 15:45,12,2
+Group Study,2,2025-06-19 09:00,1,2
+Hackathon,11,2025-06-22 11:45,7,3
+Assignment,2,2025-06-19 09:15,1,2
+Research Paper,8,2025-06-20 13:00,4,4
+Code Review,6,2025-06-23 12:00,17,2
+Assignment,7,2025-06-24 14:00,18,2
+Group Study,9,2025-06-20 18:15,4,5
+Project Work,9,2025-06-19 16:15,1,9
+Report Writing,7,2025-06-22 08:45,11,3
+Research Paper,11,2025-06-23 13:15,10,3
+Code Review,4,2025-06-23 16:30,26,1
+Hackathon,2,2025-06-25 10:15,73,1
+Online Course,12,2025-06-24 12:00,11,2
+Presentation,9,2025-06-22 18:45,9,3
+Online Course,10,2025-06-22 12:15,8,3
+Project Work,1,2025-06-21 10:30,49,1
+Group Study,8,2025-06-21 10:45,7,3
+Report Writing,2,2025-06-20 13:15,14,1
+Presentation,8,2025-06-21 14:45,7,3
+Online Course,2,2025-06-25 14:45,75,1
+Code Review,11,2025-06-25 18:30,14,2
+Group Study,10,2025-06-25 08:45,15,2
+Report Writing,12,2025-06-19 14:30,1,12
+Project Work,7,2025-06-23 10:00,14,2
+Hackathon,7,2025-06-23 12:45,15,2
+Internship Task,8,2025-06-25 08:00,18,2
+Report Writing,1,2025-06-20 12:30,27,1
+Project Work,9,2025-06-23 17:00,12,2
+Internship Task,5,2025-06-21 08:45,10,3
+Hackathon,3,2025-06-21 17:45,19,1
+Research Paper,9,2025-06-23 11:00,11,2
+Research Paper,4,2025-06-19 10:30,1,4
+Research Paper,4,2025-06-21 15:45,14,2
+Research Paper,7,2025-06-19 18:45,2,7
+Internship Task,1,2025-06-20 11:00,26,1
+Online Course,11,2025-06-22 08:15,7,4
+Research Paper,3,2025-06-19 09:00,1,3
+Code Review,10,2025-06-24 15:30,13,2
+Internship Task,5,2025-06-21 14:15,11,2
+Internship Task,9,2025-06-20 09:45,3,9
+Report Writing,1,2025-06-19 14:00,5,1
+Project Work,11,2025-06-25 13:45,14,2
+Hackathon,6,2025-06-24 14:00,21,1
+Research Paper,7,2025-06-23 16:00,15,2
+Report Writing,11,2025-06-19 14:15,1,11
+Internship Task,2,2025-06-20 11:15,13,1
+Hackathon,10,2025-06-24 17:30,13,2
+Code Review,10,2025-06-24 14:15,13,2
+Assignment,6,2025-06-19 15:45,1,6
+Hackathon,10,2025-06-24 09:45,12,2
+Hackathon,11,2025-06-24 14:30,12,2
+Report Writing,7,2025-06-24 09:45,18,2
+Code Review,3,2025-06-22 14:45,26,1
+Project Work,5,2025-06-24 15:00,26,1
+Code Review,2,2025-06-25 11:30,73,1
+Assignment,1,2025-06-24 09:30,120,1
+Assignment,6,2025-06-19 09:15,1,6
+Code Review,3,2025-06-19 08:15,1,3
+Hackathon,7,2025-06-20 15:30,5,4
+Code Review,3,2025-06-22 13:00,26,1
+Code Review,2,2025-06-25 17:15,76,1
+Group Study,4,2025-06-25 11:45,37,1
+Internship Task,6,2025-06-25 11:30,25,1
+Research Paper,8,2025-06-21 08:00,6,4
+Code Review,10,2025-06-25 08:15,15,2
+Code Review,2,2025-06-22 17:00,40,1
+Project Work,6,2025-06-24 10:00,21,1
+Report Writing,9,2025-06-22 17:45,9,3
+Report Writing,4,2025-06-24 16:45,32,1
+Presentation,6,2025-06-22 16:30,14,2
+Hackathon,10,2025-06-24 13:30,13,2
+Hackathon,10,2025-06-20 08:00,3,10
+Hackathon,12,2025-06-24 10:45,11,2
+Internship Task,1,2025-06-24 08:30,119,1
+Presentation,2,2025-06-25 08:00,72,1
+Code Review,7,2025-06-25 16:15,22,1
+Hackathon,12,2025-06-22 09:45,6,4
+Code Review,8,2025-06-21 18:45,8,3
+Presentation,4,2025-06-25 16:45,38,1
+Group Study,3,2025-06-19 10:45,1,3
+Hackathon,1,2025-06-21 14:00,53,1
+Assignment,6,2025-06-22 09:45,12,2
+Project Work,6,2025-06-22 18:00,14,2
+Presentation,2,2025-06-24 11:15,61,1
+Project Work,12,2025-06-24 13:45,11,2
+Code Review,12,2025-06-23 12:00,9,3
+Research Paper,7,2025-06-23 08:45,14,2
+Project Work,1,2025-06-19 16:45,7,1
+Assignment,4,2025-06-23 17:30,26,1
+Report Writing,11,2025-06-21 17:00,6,4
+Code Review,1,2025-06-24 11:30,122,1
+Hackathon,8,2025-06-20 10:15,4,4
+Report Writing,6,2025-06-20 17:00,6,3
+Internship Task,11,2025-06-21 16:15,5,4
+Project Work,9,2025-06-23 16:45,12,2
+Project Work,12,2025-06-19 08:00,1,12
+Research Paper,9,2025-06-25 09:45,16,2
+Code Review,4,2025-06-21 13:15,13,2
+Internship Task,6,2025-06-22 09:30,12,2
+Code Review,6,2025-06-22 09:00,12,2
+Project Work,10,2025-06-22 10:15,8,3
+Presentation,3,2025-06-21 09:45,16,2
+Code Review,2,2025-06-22 14:30,39,1
+Group Study,4,2025-06-22 16:00,20,1
+Internship Task,3,2025-06-20 18:15,11,2
+Project Work,4,2025-06-20 09:45,6,4
+Group Study,11,2025-06-22 17:00,8,3
+Presentation,5,2025-06-19 18:00,2,5
+Project Work,5,2025-06-25 13:00,30,1
+Presentation,9,2025-06-20 18:45,4,5
+Hackathon,3,2025-06-25 09:45,48,1
+Project Work,4,2025-06-24 11:15,31,1
+Online Course,5,2025-06-20 13:30,6,3
+Project Work,3,2025-06-24 15:45,42,1
+Code Review,3,2025-06-25 16:30,51,1
+Group Study,4,2025-06-24 13:45,31,1
+Project Work,9,2025-06-25 10:30,17,2
+Report Writing,6,2025-06-25 10:00,25,1
+Presentation,8,2025-06-25 14:30,19,2
+Code Review,5,2025-06-24 18:00,26,1
+Report Writing,3,2025-06-22 10:45,25,1
+Assignment,4,2025-06-22 09:15,18,2
+Presentation,5,2025-06-22 17:15,16,2
+Online Course,6,2025-06-24 17:00,22,1
+Online Course,11,2025-06-25 09:30,14,2
+Online Course,5,2025-06-25 09:30,29,1
+Code Review,1,2025-06-22 17:15,80,1
+Research Paper,6,2025-06-21 12:45,9,2
+Online Course,7,2025-06-24 11:00,18,2
+Code Review,5,2025-06-20 11:45,6,3
+Hackathon,8,2025-06-20 08:00,3,8
+Online Course,10,2025-06-23 13:45,10,2
+Online Course,4,2025-06-21 14:45,14,2
+Code Review,4,2025-06-21 08:45,12,2
+Project Work,9,2025-06-23 18:45,12,2
+Report Writing,2,2025-06-19 11:45,1,2
+Code Review,9,2025-06-19 11:45,1,9
+Hackathon,8,2025-06-22 10:30,10,2
+Project Work,7,2025-06-22 18:45,12,2
+Internship Task,9,2025-06-23 15:00,12,2
+Report Writing,6,2025-06-19 08:15,1,6
+Project Work,6,2025-06-20 12:15,5,3
+Presentation,3,2025-06-20 12:00,9,2
+Internship Task,1,2025-06-20 11:45,26,1
+Hackathon,7,2025-06-20 13:00,4,4
+Hackathon,10,2025-06-21 17:45,6,4
+Group Study,5,2025-06-25 14:15,30,1
+Project Work,10,2025-06-25 09:15,15,2
+Hackathon,3,2025-06-19 10:00,1,3
+Group Study,10,2025-06-20 18:45,4,5
+Assignment,10,2025-06-23 17:45,11,2
+Research Paper,5,2025-06-19 09:30,1,5
+Project Work,5,2025-06-23 18:30,21,1
+Assignment,9,2025-06-25 12:45,17,2
+Online Course,8,2025-06-24 13:45,16,2
+Project Work,9,2025-06-23 15:45,12,2
+Group Study,12,2025-06-21 12:15,5,4
+Online Course,2,2025-06-24 11:45,61,1
+Online Course,3,2025-06-21 08:45,16,2
+Hackathon,9,2025-06-23 08:30,11,3
+Code Review,7,2025-06-22 12:45,11,2
+Online Course,9,2025-06-20 12:30,3,5
+Presentation,11,2025-06-19 14:45,1,11
+Code Review,12,2025-06-23 10:30,9,3
+Code Review,12,2025-06-21 18:45,5,4
+Group Study,6,2025-06-21 15:30,9,2
+Group Study,5,2025-06-20 11:45,6,3
+Report Writing,5,2025-06-25 08:15,29,1
+Report Writing,6,2025-06-20 14:45,5,3
+Assignment,2,2025-06-25 09:30,72,1
+Group Study,2,2025-06-23 17:00,52,1
+Project Work,1,2025-06-21 15:15,54,1
+Group Study,11,2025-06-24 16:15,12,2
+Presentation,4,2025-06-20 08:00,6,4
+Code Review,12,2025-06-24 18:00,11,2
+Internship Task,12,2025-06-19 08:00,1,12
+Assignment,6,2025-06-22 09:45,12,2
+Code Review,10,2025-06-20 11:30,3,5
+Assignment,2,2025-06-24 11:30,61,1
+Research Paper,3,2025-06-22 10:00,25,1
+Code Review,11,2025-06-21 16:15,5,4
+Project Work,5,2025-06-20 16:30,7,3
+Code Review,6,2025-06-21 16:45,10,2
+Group Study,8,2025-06-23 18:45,14,2
+Internship Task,2,2025-06-25 14:45,75,1
+Assignment,12,2025-06-20 18:30,3,6
+Presentation,8,2025-06-24 16:15,16,2
+Code Review,12,2025-06-21 10:00,5,4
+Internship Task,11,2025-06-21 17:30,6,4
+Hackathon,5,2025-06-25 08:00,29,1
+Research Paper,10,2025-06-25 13:30,15,2
+Assignment,10,2025-06-23 17:15,11,2
+Hackathon,10,2025-06-23 15:15,11,2
+Assignment,6,2025-06-25 08:15,24,1
+Assignment,2,2025-06-20 13:30,14,1
+Presentation,6,2025-06-24 18:00,22,1
+Assignment,3,2025-06-22 12:15,25,1
+Online Course,11,2025-06-20 11:00,3,6
+Online Course,8,2025-06-19 15:30,1,8
+Research Paper,4,2025-06-21 10:30,13,2
+Research Paper,6,2025-06-23 18:45,18,2
+Online Course,3,2025-06-20 11:45,9,2
+Project Work,8,2025-06-22 08:00,9,3
+Hackathon,2,2025-06-20 10:00,13,1
+Group Study,1,2025-06-24 08:45,119,1
+Online Course,3,2025-06-19 15:30,2,3
+Internship Task,12,2025-06-25 11:30,13,2
+Presentation,12,2025-06-24 14:15,11,2
+Project Work,2,2025-06-20 12:15,14,1
+Code Review,11,2025-06-21 13:30,5,4
+Research Paper,3,2025-06-20 09:00,8,3
+Hackathon,2,2025-06-20 11:00,13,1
+Project Work,12,2025-06-22 11:15,7,3
+Hackathon,8,2025-06-21 16:45,7,3
+Internship Task,4,2025-06-24 17:15,32,1
+Research Paper,3,2025-06-24 09:45,40,1
+Assignment,5,2025-06-25 08:00,29,1
+Assignment,6,2025-06-22 11:45,13,2
+Report Writing,7,2025-06-23 17:45,15,2
+Online Course,3,2025-06-19 10:30,1,3
+Report Writing,4,2025-06-19 10:00,1,4
+Internship Task,12,2025-06-24 16:15,11,2
+Report Writing,9,2025-06-20 09:00,3,9
+Report Writing,5,2025-06-22 15:15,16,2
+Presentation,11,2025-06-22 18:30,8,3
+Assignment,5,2025-06-20 16:30,7,3
+Internship Task,2,2025-06-20 10:00,13,1
+Group Study,4,2025-06-25 17:45,38,1
+Research Paper,1,2025-06-22 12:45,75,1
+Research Paper,4,2025-06-21 09:30,12,2
+Code Review,8,2025-06-22 14:15,10,2
+Research Paper,7,2025-06-20 11:15,4,4
+Code Review,1,2025-06-20 13:45,28,1
+Research Paper,4,2025-06-24 18:15,33,1
+Code Review,3,2025-06-22 15:15,26,1
+Assignment,12,2025-06-25 17:30,13,2
+Online Course,1,2025-06-19 11:30,2,1
+Presentation,5,2025-06-21 17:45,12,2
+Online Course,9,2025-06-23 16:45,12,2
+Project Work,3,2025-06-24 10:30,41,1
+Online Course,10,2025-06-22 15:00,8,3
+Research Paper,10,2025-06-22 13:30,8,3
+Research Paper,9,2025-06-20 12:30,3,5
+Hackathon,12,2025-06-22 17:00,7,3
+Report Writing,11,2025-06-25 08:00,13,2
+Report Writing,1,2025-06-20 14:30,29,1
+Presentation,9,2025-06-25 09:45,16,2
+Hackathon,4,2025-06-21 08:15,12,2
+Assignment,12,2025-06-21 08:15,4,6
+Presentation,3,2025-06-19 14:15,2,3
+Online Course,12,2025-06-20 10:15,3,6
+Research Paper,9,2025-06-22 14:45,9,3
+Online Course,10,2025-06-21 10:45,5,4
+Presentation,12,2025-06-23 12:30,9,3
+Assignment,10,2025-06-25 10:45,15,2
+Hackathon,3,2025-06-23 18:45,35,1
+Group Study,7,2025-06-24 10:30,18,2
+Research Paper,8,2025-06-21 18:45,8,3
+Project Work,11,2025-06-21 18:15,6,4
+Hackathon,6,2025-06-19 17:30,2,6
+Group Study,1,2025-06-21 12:45,51,1
+Assignment,4,2025-06-20 18:15,9,2
+Research Paper,3,2025-06-20 11:00,9,2
+Report Writing,1,2025-06-25 17:30,152,1
+Assignment,1,2025-06-21 17:00,56,1
+Group Study,7,2025-06-23 15:30,15,2
+Project Work,3,2025-06-21 15:00,18,1
+Online Course,2,2025-06-21 10:45,25,1
+Research Paper,7,2025-06-19 13:15,1,7
+Hackathon,6,2025-06-23 15:30,17,2
+Internship Task,12,2025-06-23 12:30,9,3
+Hackathon,5,2025-06-23 14:00,21,1
+Internship Task,12,2025-06-22 11:30,7,3
+Presentation,2,2025-06-22 10:30,37,1
+Assignment,11,2025-06-23 14:30,10,3
+Group Study,2,2025-06-20 18:00,17,1
+Research Paper,2,2025-06-22 17:30,40,1
+Project Work,12,2025-06-22 11:45,7,3
+Project Work,10,2025-06-24 11:30,13,2
+Report Writing,4,2025-06-19 17:15,2,4
+Report Writing,10,2025-06-22 18:00,9,3
+Hackathon,4,2025-06-21 16:30,14,2
+Presentation,11,2025-06-20 18:15,3,6
+Research Paper,9,2025-06-21 09:30,6,5
+Presentation,10,2025-06-25 15:00,15,2
+Research Paper,10,2025-06-22 12:15,8,3
+Hackathon,10,2025-06-21 10:45,5,4
+Internship Task,6,2025-06-25 15:15,25,1
+Project Work,5,2025-06-23 11:00,20,1
+Hackathon,2,2025-06-22 15:45,39,1
+Hackathon,10,2025-06-23 14:45,11,2
+Assignment,8,2025-06-21 09:45,6,4
+Presentation,8,2025-06-25 11:15,19,2
+Report Writing,2,2025-06-20 14:45,15,1
+Presentation,11,2025-06-24 11:30,12,2
+Presentation,2,2025-06-22 17:15,40,1
+Group Study,7,2025-06-20 15:15,5,4
+Assignment,2,2025-06-21 15:30,27,1
+Code Review,3,2025-06-23 18:15,35,1
+Hackathon,7,2025-06-22 15:00,12,2
+Online Course,8,2025-06-20 17:15,4,4
+Project Work,7,2025-06-24 14:30,18,2
+Project Work,11,2025-06-21 17:00,6,4
+Internship Task,7,2025-06-19 09:45,1,7
+Online Course,9,2025-06-22 16:45,9,3
+Online Course,11,2025-06-24 17:00,12,2
+Internship Task,2,2025-06-20 16:45,16,1
+Online Course,5,2025-06-24 09:45,24,1
+Internship Task,12,2025-06-19 18:30,1,12
+Code Review,8,2025-06-21 17:00,7,3
+Group Study,5,2025-06-21 14:45,11,2
+Presentation,3,2025-06-19 08:15,1,3
+Research Paper,11,2025-06-24 08:00,11,3
+Code Review,12,2025-06-20 11:45,3,6
+Project Work,7,2025-06-20 16:45,5,4
+Online Course,11,2025-06-21 16:30,5,4
+Project Work,5,2025-06-20 17:15,7,3
+Project Work,11,2025-06-21 09:45,5,6
+Presentation,8,2025-06-23 08:00,12,2
+Hackathon,8,2025-06-24 18:45,17,2
+Online Course,4,2025-06-25 09:30,36,1
+Code Review,9,2025-06-20 13:45,4,5
+Online Course,10,2025-06-20 13:30,3,5
+Hackathon,3,2025-06-20 15:30,10,2
+Online Course,7,2025-06-19 09:00,1,7
+Project Work,7,2025-06-25 09:30,21,2
+Internship Task,3,2025-06-24 18:15,43,1
+Project Work,7,2025-06-21 08:45,7,4
+Internship Task,2,2025-06-19 15:00,3,2
+Assignment,12,2025-06-21 17:00,5,4
+Hackathon,5,2025-06-25 09:15,29,1
+Report Writing,2,2025-06-23 11:45,49,1
+Report Writing,5,2025-06-20 18:00,7,3
+Assignment,7,2025-06-24 09:00,18,2
+Internship Task,11,2025-06-20 09:30,3,11
+Report Writing,1,2025-06-20 09:00,24,1
+Hackathon,5,2025-06-21 14:15,11,2
+Assignment,10,2025-06-22 12:45,8,3
+Assignment,2,2025-06-24 09:15,60,1
+Online Course,4,2025-06-25 10:30,37,1
+Code Review,2,2025-06-23 13:45,50,1
+Code Review,3,2025-06-19 18:45,3,3
+Research Paper,10,2025-06-21 10:00,5,4
+Code Review,10,2025-06-20 15:00,3,5
+Assignment,11,2025-06-20 08:15,3,11
+Code Review,9,2025-06-21 09:30,6,5
+Group Study,3,2025-06-24 15:45,42,1
+Research Paper,3,2025-06-22 12:30,25,1
+Presentation,5,2025-06-24 09:00,24,1
+Assignment,8,2025-06-19 13:00,1,8
+Online Course,3,2025-06-22 12:45,25,1
+Assignment,1,2025-06-21 09:00,48,1
+Research Paper,4,2025-06-22 18:45,21,1
+Report Writing,2,2025-06-20 11:45,13,1
+Project Work,4,2025-06-25 12:30,37,1
+Online Course,9,2025-06-24 14:30,14,2
+Internship Task,10,2025-06-19 17:00,1,10
+Hackathon,7,2025-06-22 09:45,11,3
+Presentation,10,2025-06-20 17:15,4,5
+Project Work,1,2025-06-20 13:30,28,1
+Research Paper,8,2025-06-19 12:15,1,8
+Project Work,5,2025-06-19 10:00,1,5
+Project Work,12,2025-06-25 14:45,13,2
+Assignment,10,2025-06-19 16:15,1,10
+Project Work,7,2025-06-19 10:15,1,7
+Code Review,5,2025-06-24 08:30,24,1
+Hackathon,10,2025-06-24 14:30,13,2
+Hackathon,12,2025-06-21 16:45,5,4
+Report Writing,4,2025-06-20 10:30,7,2
+Research Paper,1,2025-06-21 12:00,51,1
+Research Paper,5,2025-06-20 18:00,7,3
+Presentation,4,2025-06-21 15:00,14,2
+Hackathon,5,2025-06-19 17:00,2,5
+Research Paper,10,2025-06-20 11:00,3,5
+Assignment,4,2025-06-23 16:00,26,1
+Code Review,5,2025-06-25 16:15,31,1
+Assignment,9,2025-06-23 13:15,12,2
+Online Course,5,2025-06-21 13:45,11,2
+Report Writing,5,2025-06-23 13:00,20,1
+Internship Task,5,2025-06-23 13:15,20,1
+Hackathon,7,2025-06-21 10:00,7,3
+Code Review,12,2025-06-23 09:15,8,3
+Online Course,1,2025-06-20 11:15,26,1
+Presentation,6,2025-06-20 14:45,5,3
+Assignment,1,2025-06-20 12:00,27,1
+Online Course,11,2025-06-23 09:30,9,3
+Project Work,7,2025-06-21 17:45,8,3
+Hackathon,7,2025-06-19 17:30,2,7
+Presentation,11,2025-06-20 14:15,3,6
+Group Study,4,2025-06-22 18:30,21,1
+Group Study,10,2025-06-24 16:30,13,2
+Research Paper,8,2025-06-25 09:30,18,2
+Group Study,4,2025-06-23 09:30,24,1
+Assignment,4,2025-06-24 14:15,32,1
+Presentation,11,2025-06-24 15:15,12,2
+Group Study,11,2025-06-20 15:45,3,6
+Project Work,6,2025-06-19 12:00,1,6
+Presentation,12,2025-06-20 12:00,3,6
+Project Work,10,2025-06-21 15:30,6,4
+Group Study,12,2025-06-23 17:45,9,3
+Hackathon,6,2025-06-23 10:30,17,2
+Internship Task,2,2025-06-19 14:30,3,2
+Presentation,2,2025-06-20 17:30,16,1
+Internship Task,9,2025-06-21 15:00,6,3
+Report Writing,3,2025-06-24 18:30,43,1
+Group Study,5,2025-06-21 18:45,12,2
+Report Writing,11,2025-06-20 09:00,3,11
+Presentation,4,2025-06-25 16:45,38,1
+Assignment,4,2025-06-21 15:45,14,2
+Research Paper,5,2025-06-24 11:45,25,1
+Research Paper,11,2025-06-24 12:30,12,2
+Internship Task,9,2025-06-19 15:00,1,9
+Research Paper,11,2025-06-20 08:15,3,11
+Presentation,8,2025-06-25 10:45,19,2
+Assignment,10,2025-06-24 10:15,13,2
+Research Paper,5,2025-06-20 17:15,7,3
+Assignment,5,2025-06-21 18:15,12,2
+Presentation,12,2025-06-19 16:15,1,12
+Assignment,5,2025-06-21 11:30,10,2
+Online Course,9,2025-06-23 15:15,12,2
+Group Study,7,2025-06-25 12:15,21,1
+Group Study,9,2025-06-19 17:45,1,9
+Report Writing,10,2025-06-21 09:15,5,5
+Presentation,6,2025-06-24 11:15,21,1
+Project Work,5,2025-06-20 16:15,7,3
+Internship Task,11,2025-06-19 09:00,1,11
+Code Review,7,2025-06-22 15:15,12,2
+Online Course,2,2025-06-20 09:15,12,2
+Internship Task,1,2025-06-25 10:00,145,1
+Group Study,9,2025-06-24 10:00,14,2
+Online Course,11,2025-06-19 08:30,1,11
+Internship Task,5,2025-06-19 12:30,1,5
+Online Course,1,2025-06-20 18:00,33,1
+Internship Task,8,2025-06-24 08:45,15,2
+Assignment,1,2025-06-22 15:15,78,1
+Internship Task,3,2025-06-23 17:45,35,1
+Presentation,1,2025-06-23 12:15,99,1
+Presentation,11,2025-06-20 15:00,3,6
+Hackathon,4,2025-06-23 09:45,24,1
+Internship Task,10,2025-06-19 18:45,1,10
+Internship Task,4,2025-06-25 10:15,37,1
+Project Work,5,2025-06-24 18:45,26,1
+Report Writing,9,2025-06-24 13:30,14,2
+Presentation,8,2025-06-22 17:00,10,2
+Online Course,12,2025-06-24 14:45,11,2
+Assignment,8,2025-06-19 11:45,1,8
+Project Work,7,2025-06-20 09:15,4,7
+Online Course,4,2025-06-23 13:00,25,1
+Code Review,4,2025-06-24 13:00,31,1
+Research Paper,7,2025-06-25 09:00,21,2
+Presentation,4,2025-06-25 13:30,37,1
+Group Study,10,2025-06-19 17:30,1,10
+Research Paper,11,2025-06-23 16:00,10,3
+Presentation,6,2025-06-20 11:30,5,3
+Group Study,10,2025-06-25 11:30,15,2
+Research Paper,1,2025-06-23 08:00,95,1
+Online Course,6,2025-06-19 10:45,1,6
+Research Paper,11,2025-06-21 09:30,5,6
+Project Work,4,2025-06-22 14:45,20,1
+Report Writing,6,2025-06-25 09:15,24,1
+Code Review,1,2025-06-19 13:15,4,1
+Presentation,8,2025-06-25 18:15,20,2
+Online Course,6,2025-06-19 12:00,1,6
+Internship Task,5,2025-06-23 18:15,21,1
+Assignment,6,2025-06-23 18:30,18,2
+Group Study,10,2025-06-20 16:15,4,5
+Internship Task,2,2025-06-22 08:15,36,1
+Group Study,6,2025-06-21 13:15,9,2
+Online Course,4,2025-06-25 16:15,38,1
+Internship Task,4,2025-06-19 08:00,1,4
+Group Study,3,2025-06-21 13:00,18,1
+Code Review,8,2025-06-21 09:30,6,4
+Research Paper,6,2025-06-22 14:45,13,2
+Hackathon,3,2025-06-20 12:30,9,2
+Research Paper,10,2025-06-21 13:00,6,4
+Online Course,4,2025-06-22 13:45,19,1
+Report Writing,9,2025-06-24 09:00,14,2
+Internship Task,4,2025-06-19 14:15,2,4
+Online Course,11,2025-06-23 08:00,9,3
+Internship Task,5,2025-06-25 11:30,30,1
+Online Course,5,2025-06-24 17:30,26,1
+Internship Task,6,2025-06-22 15:45,13,2
+Internship Task,1,2025-06-21 18:00,57,1
+Online Course,5,2025-06-19 13:45,1,5
+Assignment,9,2025-06-24 13:00,14,2
+Online Course,2,2025-06-23 12:30,50,1
+Online Course,4,2025-06-22 18:30,21,1
+Code Review,4,2025-06-22 08:00,18,2
+Code Review,3,2025-06-24 16:00,43,1
+Internship Task,4,2025-06-20 17:15,8,2
+Code Review,5,2025-06-25 12:45,30,1
+Research Paper,11,2025-06-22 15:15,8,3
+Research Paper,1,2025-06-20 18:30,33,1
+Internship Task,4,2025-06-20 14:30,8,2
+Code Review,12,2025-06-22 18:45,7,3
+Assignment,6,2025-06-21 09:30,8,3
+Project Work,12,2025-06-22 11:00,7,3
+Presentation,7,2025-06-21 16:15,8,3
+Internship Task,12,2025-06-21 09:00,4,6
+Assignment,8,2025-06-23 15:30,13,2
+Internship Task,1,2025-06-21 08:30,47,1
+Research Paper,10,2025-06-25 18:45,16,2
+Internship Task,6,2025-06-19 09:15,1,6
+Presentation,8,2025-06-20 17:30,4,4
+Online Course,10,2025-06-20 14:45,3,5
+Group Study,9,2025-06-20 08:15,3,9
+Internship Task,8,2025-06-19 16:15,1,8
+Presentation,12,2025-06-25 08:15,12,2
+Presentation,4,2025-06-22 17:30,20,1
+Assignment,7,2025-06-19 17:00,2,7
+Presentation,11,2025-06-23 14:45,10,3
+Research Paper,11,2025-06-20 08:30,3,11
+Assignment,11,2025-06-19 18:45,1,11
+Online Course,1,2025-06-21 16:45,55,1
+Assignment,5,2025-06-24 17:45,26,1
+Report Writing,10,2025-06-21 17:15,6,4
+Group Study,2,2025-06-19 14:15,3,2
+Research Paper,1,2025-06-24 15:00,126,1
+Internship Task,1,2025-06-22 15:30,78,1
+Online Course,1,2025-06-23 13:45,100,1
+Research Paper,4,2025-06-22 10:30,19,1
+Presentation,2,2025-06-20 10:45,13,1
+Internship Task,5,2025-06-24 15:00,26,1
+Project Work,8,2025-06-23 09:00,12,2
+Project Work,9,2025-06-24 08:45,14,2
+Assignment,12,2025-06-24 18:45,11,2
+Hackathon,4,2025-06-21 17:00,14,2
+Internship Task,11,2025-06-22 11:45,7,3
+Presentation,8,2025-06-22 10:00,10,2
+Code Review,7,2025-06-19 11:15,1,7
+Project Work,9,2025-06-25 09:00,16,2
+Group Study,6,2025-06-23 12:45,17,2
+Research Paper,6,2025-06-24 17:30,22,1
+Group Study,9,2025-06-22 16:15,9,3
+Assignment,3,2025-06-23 09:45,32,1
+Internship Task,11,2025-06-23 09:45,9,3
+Report Writing,2,2025-06-22 08:00,36,1
+Online Course,7,2025-06-19 09:45,1,7
+Internship Task,11,2025-06-23 18:30,10,3
+Internship Task,12,2025-06-21 11:45,5,4
+Code Review,5,2025-06-22 14:45,16,2
+Presentation,11,2025-06-24 14:45,12,2
+Online Course,10,2025-06-24 14:00,13,2
+Report Writing,3,2025-06-19 11:00,1,3
+Code Review,7,2025-06-20 11:15,4,4
+Internship Task,1,2025-06-20 09:30,24,1
+Assignment,10,2025-06-22 08:45,8,4
+Internship Task,4,2025-06-20 18:45,9,2
+Project Work,8,2025-06-21 09:30,6,4
+Report Writing,8,2025-06-19 11:30,1,8
+Internship Task,10,2025-06-25 11:45,15,2
+Project Work,6,2025-06-20 08:15,4,6
+Code Review,10,2025-06-22 13:30,8,3
+Assignment,4,2025-06-24 15:45,32,1
+Assignment,6,2025-06-25 11:45,25,1
+Research Paper,7,2025-06-23 11:00,14,2
+Project Work,9,2025-06-20 11:30,3,5
+Code Review,10,2025-06-20 08:00,3,10
+Report Writing,5,2025-06-19 16:15,2,5
+Presentation,5,2025-06-21 11:45,10,2
+Research Paper,11,2025-06-25 18:45,14,2
+Assignment,8,2025-06-24 12:00,16,2
+Presentation,9,2025-06-19 13:30,1,9
+Report Writing,11,2025-06-21 10:45,5,4
+Internship Task,9,2025-06-21 17:00,7,3
+Group Study,10,2025-06-21 15:45,6,4
+Assignment,8,2025-06-23 11:30,13,2
+Research Paper,10,2025-06-22 08:30,8,4
+Hackathon,3,2025-06-25 17:00,51,1
+Internship Task,9,2025-06-23 17:30,12,2
+Hackathon,10,2025-06-23 11:30,10,2
+Internship Task,12,2025-06-19 18:00,1,12
+Research Paper,12,2025-06-22 08:45,6,4
+Report Writing,4,2025-06-19 13:15,1,4
+Presentation,2,2025-06-19 14:15,3,2
+Internship Task,1,2025-06-21 09:15,48,1
+Assignment,6,2025-06-22 13:00,13,2
+Research Paper,11,2025-06-25 17:15,14,2
+Group Study,9,2025-06-22 13:15,9,3
+Report Writing,8,2025-06-24 18:15,17,2
+Code Review,9,2025-06-24 13:30,14,2
+Presentation,11,2025-06-22 12:30,7,3
+Project Work,7,2025-06-19 09:45,1,7
+Report Writing,6,2025-06-23 18:00,18,2
+Internship Task,11,2025-06-20 14:45,3,6
+Internship Task,1,2025-06-22 15:45,78,1
+Code Review,7,2025-06-25 08:00,21,2
+Hackathon,2,2025-06-23 14:30,51,1
+Assignment,11,2025-06-22 15:45,8,3
+Group Study,12,2025-06-20 18:45,3,6
+Assignment,6,2025-06-23 08:00,16,2
+Presentation,11,2025-06-22 18:30,8,3
+Hackathon,4,2025-06-20 11:30,7,2
+Assignment,6,2025-06-20 17:15,6,3
+Presentation,3,2025-06-22 12:45,25,1
+Report Writing,4,2025-06-24 15:30,32,1
+Presentation,7,2025-06-20 12:30,4,4
+Code Review,10,2025-06-21 12:15,6,4
+Project Work,10,2025-06-19 18:00,1,10
+Internship Task,7,2025-06-22 10:00,11,2
+Project Work,3,2025-06-19 17:30,3,3
+Online Course,7,2025-06-24 17:45,19,2
+Project Work,8,2025-06-25 16:45,19,2
+Internship Task,6,2025-06-20 12:30,5,3
+Hackathon,10,2025-06-19 11:30,1,10
+Research Paper,9,2025-06-19 09:45,1,9
+Internship Task,5,2025-06-20 14:15,6,3
+Report Writing,2,2025-06-20 18:30,17,1
+Internship Task,9,2025-06-21 14:15,6,3
+Report Writing,3,2025-06-20 09:30,8,3
+Code Review,10,2025-06-20 18:45,4,5
+Research Paper,4,2025-06-23 13:45,25,1
+Internship Task,3,2025-06-24 13:45,42,1
+Research Paper,3,2025-06-21 14:45,18,1
+Hackathon,11,2025-06-25 08:15,13,2
+Project Work,1,2025-06-21 12:15,51,1
+Report Writing,3,2025-06-19 10:15,1,3
+Hackathon,4,2025-06-22 16:45,20,1
+Project Work,1,2025-06-19 08:45,1,1
+Online Course,5,2025-06-25 16:15,31,1
+Code Review,10,2025-06-24 17:15,13,2
+Code Review,8,2025-06-24 12:45,16,2
+Assignment,1,2025-06-22 12:15,75,1
+Hackathon,12,2025-06-22 13:00,7,3
+Project Work,2,2025-06-19 13:30,2,2
+Hackathon,3,2025-06-22 12:30,25,1
+Research Paper,6,2025-06-19 10:00,1,6
+Research Paper,12,2025-06-19 17:30,1,12
+Group Study,12,2025-06-19 10:30,1,12
+Hackathon,7,2025-06-19 12:30,1,7
+Project Work,11,2025-06-23 17:00,10,3
+Assignment,10,2025-06-23 17:45,11,2
+Group Study,11,2025-06-24 17:00,12,2
+Code Review,3,2025-06-22 13:30,26,1
+Research Paper,12,2025-06-24 12:30,11,2
+Code Review,7,2025-06-25 12:30,21,1
+Project Work,6,2025-06-24 08:30,20,2
+Assignment,3,2025-06-21 17:00,19,1
+Hackathon,6,2025-06-23 12:15,17,2
+Code Review,3,2025-06-21 15:30,18,1
+Code Review,12,2025-06-19 09:15,1,12
+Research Paper,7,2025-06-24 08:00,17,2
+Project Work,1,2025-06-22 15:00,78,1
+Internship Task,5,2025-06-20 18:30,7,3
+Internship Task,9,2025-06-24 18:30,15,2
+Code Review,5,2025-06-21 15:15,11,2
+Assignment,10,2025-06-22 11:00,8,3
+Group Study,8,2025-06-20 13:15,4,4
+Research Paper,5,2025-06-23 12:15,20,1
+Presentation,7,2025-06-19 10:45,1,7
+Research Paper,4,2025-06-22 17:00,20,1
+Project Work,11,2025-06-20 18:15,3,6
+Research Paper,2,2025-06-25 15:45,75,1
+Group Study,12,2025-06-22 18:45,7,3
+Group Study,1,2025-06-21 15:30,54,1
+Research Paper,4,2025-06-19 18:30,3,4
+Presentation,2,2025-06-19 17:30,4,2
+Presentation,6,2025-06-19 09:45,1,6
+Assignment,4,2025-06-22 16:45,20,1
+Code Review,6,2025-06-23 17:15,18,2
+Assignment,2,2025-06-25 14:00,75,1
+Hackathon,1,2025-06-20 10:00,25,1
+Group Study,4,2025-06-19 15:45,2,4
+Presentation,2,2025-06-24 11:00,61,1
+Code Review,11,2025-06-22 17:00,8,3
+Report Writing,8,2025-06-20 17:45,4,4
+Project Work,7,2025-06-25 08:45,21,2
+Group Study,1,2025-06-22 10:45,73,1
+Code Review,4,2025-06-23 13:15,25,1
+Code Review,7,2025-06-22 17:30,12,2
+Research Paper,2,2025-06-24 09:30,60,1
+Report Writing,6,2025-06-19 16:30,2,6
+Presentation,4,2025-06-21 11:45,13,2
+Assignment,6,2025-06-22 10:15,13,2
+Presentation,7,2025-06-20 10:30,4,4
+Assignment,4,2025-06-22 12:30,19,1
+Research Paper,1,2025-06-23 08:15,95,1
+Internship Task,8,2025-06-24 18:00,17,2
+Online Course,3,2025-06-25 10:30,49,1
+Report Writing,4,2025-06-22 18:00,21,1
+Online Course,1,2025-06-21 17:45,56,1
+Presentation,3,2025-06-19 09:15,1,3
+Group Study,2,2025-06-25 18:45,77,1
+Hackathon,12,2025-06-20 15:00,3,6
+Internship Task,1,2025-06-20 11:30,26,1
+Code Review,1,2025-06-24 08:15,119,1
+Research Paper,8,2025-06-23 17:30,13,2
+Assignment,3,2025-06-22 09:00,24,1
+Online Course,1,2025-06-19 17:45,8,1
+Report Writing,3,2025-06-25 13:30,50,1
+Internship Task,3,2025-06-23 15:15,34,1
+Online Course,8,2025-06-25 16:00,19,2
+Assignment,4,2025-06-20 17:30,8,2
+Assignment,12,2025-06-21 17:45,5,4
+Code Review,6,2025-06-24 17:30,22,1
+Assignment,4,2025-06-19 11:00,1,4
+Hackathon,8,2025-06-25 12:45,19,2
+Assignment,12,2025-06-22 10:45,7,3
+Group Study,4,2025-06-24 08:15,30,1
+Report Writing,10,2025-06-25 15:15,15,2
+Group Study,5,2025-06-21 14:15,11,2
+Code Review,7,2025-06-23 10:45,14,2
+Report Writing,1,2025-06-19 10:15,1,1
+Report Writing,10,2025-06-21 09:15,5,5
+Research Paper,12,2025-06-19 15:30,1,12
+Research Paper,3,2025-06-21 08:15,16,2
+Report Writing,4,2025-06-23 13:15,25,1
+Presentation,5,2025-06-20 14:00,6,3
+Presentation,1,2025-06-23 17:45,104,1
+Presentation,3,2025-06-19 08:15,1,3
+Presentation,11,2025-06-20 13:30,3,6
+Group Study,11,2025-06-21 18:15,6,4
+Online Course,9,2025-06-22 18:00,9,3
+Internship Task,10,2025-06-23 09:00,10,3
+Code Review,12,2025-06-25 15:45,13,2
+Group Study,1,2025-06-20 16:00,31,1
+Code Review,8,2025-06-25 13:30,19,2
+Internship Task,11,2025-06-25 08:45,13,2
+Group Study,3,2025-06-19 10:15,1,3
+Online Course,12,2025-06-25 18:30,13,2
+Presentation,5,2025-06-23 18:00,21,1
+Group Study,9,2025-06-25 08:15,16,2
+Project Work,11,2025-06-24 12:45,12,2
+Hackathon,3,2025-06-25 11:30,49,1
+Code Review,5,2025-06-21 15:30,11,2
+Project Work,11,2025-06-22 18:15,8,3
+Group Study,5,2025-06-20 15:00,6,3
+Project Work,11,2025-06-23 18:15,10,3
+Group Study,4,2025-06-24 18:00,33,1
+Assignment,3,2025-06-23 12:00,33,1
+Report Writing,1,2025-06-21 11:15,50,1
+Project Work,5,2025-06-21 13:15,11,2
+Group Study,7,2025-06-20 18:45,5,4
+Code Review,7,2025-06-21 17:15,8,3
+Report Writing,6,2025-06-20 13:45,5,3
+Report Writing,7,2025-06-25 17:45,22,1
+Presentation,11,2025-06-20 08:15,3,11
+Internship Task,12,2025-06-19 09:45,1,12
+Project Work,7,2025-06-24 10:15,18,2
+Code Review,3,2025-06-19 14:15,2,3
+Group Study,4,2025-06-23 08:00,24,1
+Research Paper,8,2025-06-23 18:30,14,2
+Assignment,10,2025-06-24 09:45,12,2
+Internship Task,7,2025-06-23 15:00,15,2
+Internship Task,7,2025-06-19 17:30,2,7
+Hackathon,1,2025-06-22 09:30,72,1
+Hackathon,10,2025-06-21 08:15,5,5
+Report Writing,5,2025-06-23 10:00,20,1
+Internship Task,5,2025-06-24 09:45,24,1
+Project Work,10,2025-06-20 15:30,3,5
+Research Paper,5,2025-06-20 14:45,6,3
+Code Review,7,2025-06-22 10:00,11,2
+Group Study,5,2025-06-21 09:00,10,3
+Online Course,10,2025-06-19 15:00,1,10
+Group Study,3,2025-06-25 15:15,50,1
+Internship Task,12,2025-06-22 08:45,6,4
+Group Study,10,2025-06-25 08:45,15,2
+Hackathon,2,2025-06-22 13:30,38,1
+Presentation,6,2025-06-19 12:00,1,6
+Group Study,6,2025-06-23 16:15,18,2
+Project Work,4,2025-06-21 17:00,14,2
+Report Writing,4,2025-06-24 18:15,33,1
+Online Course,1,2025-06-19 14:30,5,1
+Hackathon,7,2025-06-25 09:30,21,2
+Code Review,6,2025-06-23 11:00,17,2
+Assignment,12,2025-06-21 16:00,5,4
+Research Paper,1,2025-06-23 15:30,102,1
+Code Review,4,2025-06-21 17:15,14,2
+Project Work,3,2025-06-19 10:45,1,3
+Group Study,4,2025-06-21 14:45,14,2
+Group Study,12,2025-06-22 17:00,7,3
+Report Writing,6,2025-06-21 17:45,10,2
+Online Course,12,2025-06-25 14:45,13,2
+Project Work,6,2025-06-21 09:15,8,3
+Assignment,6,2025-06-21 18:15,10,2
+Internship Task,12,2025-06-19 17:30,1,12
+Report Writing,12,2025-06-25 17:00,13,2
+Group Study,11,2025-06-23 13:45,10,3
+Code Review,7,2025-06-24 08:15,17,2
+Code Review,2,2025-06-19 17:15,4,2
+Code Review,3,2025-06-19 10:45,1,3
+Research Paper,6,2025-06-21 15:00,9,2
+Assignment,4,2025-06-21 11:45,13,2
+Research Paper,4,2025-06-23 11:30,25,1
+Internship Task,7,2025-06-24 09:00,18,2
+Online Course,10,2025-06-24 09:15,12,2
+Hackathon,9,2025-06-24 08:30,14,2
+Internship Task,3,2025-06-22 14:45,26,1
+Report Writing,9,2025-06-19 12:00,1,9
+Internship Task,6,2025-06-20 16:45,6,3
+Hackathon,2,2025-06-25 08:45,72,1
+Internship Task,1,2025-06-25 10:30,145,1
+Code Review,2,2025-06-23 17:45,52,1
+Research Paper,4,2025-06-23 11:00,25,1
+Group Study,1,2025-06-25 11:30,146,1
+Project Work,2,2025-06-20 10:30,13,1
+Presentation,7,2025-06-25 12:45,21,1
+Research Paper,1,2025-06-22 12:00,75,1
+Hackathon,12,2025-06-25 11:30,13,2
+Hackathon,8,2025-06-21 14:30,7,3
+Internship Task,1,2025-06-24 09:30,120,1
+Report Writing,1,2025-06-20 14:00,29,1
+Assignment,8,2025-06-22 17:00,10,2
+Project Work,5,2025-06-21 08:45,10,3
+Code Review,8,2025-06-21 14:00,7,3
+Internship Task,9,2025-06-23 10:45,11,2
+Online Course,2,2025-06-20 15:45,15,1
+Group Study,11,2025-06-19 12:00,1,11
+Code Review,7,2025-06-19 15:00,1,7
+Group Study,4,2025-06-19 11:00,1,4
+Assignment,10,2025-06-25 18:30,16,2
+Assignment,12,2025-06-23 11:30,9,3
+Report Writing,10,2025-06-20 13:30,3,5
+Report Writing,9,2025-06-20 13:45,4,5
+Group Study,8,2025-06-22 10:15,10,2
+Assignment,2,2025-06-25 16:30,76,1
+Internship Task,11,2025-06-19 11:00,1,11
+Group Study,8,2025-06-24 18:00,17,2
+Research Paper,8,2025-06-23 16:30,13,2
+Project Work,1,2025-06-25 09:45,144,1
+Report Writing,10,2025-06-24 18:00,13,2
+Report Writing,6,2025-06-24 17:15,22,1
+Presentation,8,2025-06-24 18:00,17,2
+Research Paper,9,2025-06-23 11:45,11,2
+Research Paper,11,2025-06-24 15:15,12,2
+Code Review,5,2025-06-20 11:30,6,3
+Group Study,8,2025-06-25 09:15,18,2
+Research Paper,2,2025-06-25 08:45,72,1
+Project Work,7,2025-06-23 14:45,15,2
+Project Work,5,2025-06-24 16:15,26,1
+Group Study,4,2025-06-22 17:00,20,1
+Presentation,1,2025-06-25 11:00,146,1
+Hackathon,9,2025-06-25 14:30,17,2
+Hackathon,9,2025-06-21 11:45,6,3
+Presentation,4,2025-06-23 12:00,25,1
+Assignment,1,2025-06-22 14:00,77,1
+Presentation,7,2025-06-24 16:30,19,2
+Assignment,4,2025-06-20 15:45,8,2
+Assignment,11,2025-06-21 10:45,5,4
+Group Study,3,2025-06-24 08:15,40,1
+Report Writing,2,2025-06-25 10:00,73,1
+Internship Task,5,2025-06-24 15:45,26,1
+Report Writing,2,2025-06-25 12:45,74,1
+Report Writing,7,2025-06-24 08:45,17,2
+Code Review,9,2025-06-23 14:00,12,2
+Hackathon,5,2025-06-20 16:30,7,3
+Assignment,1,2025-06-19 08:30,1,1
+Internship Task,1,2025-06-20 12:15,27,1
+Internship Task,12,2025-06-22 10:15,7,3
+Research Paper,6,2025-06-19 08:45,1,6
+Internship Task,2,2025-06-19 14:45,3,2
+Assignment,7,2025-06-21 09:45,7,4
+Project Work,12,2025-06-20 12:30,3,6
+Code Review,6,2025-06-23 18:45,18,2
+Presentation,11,2025-06-25 15:30,14,2
+Online Course,8,2025-06-25 08:30,18,2
+Internship Task,2,2025-06-24 17:45,64,1
+Project Work,11,2025-06-20 14:15,3,6
+Project Work,2,2025-06-21 09:00,24,1
+Internship Task,2,2025-06-20 13:00,14,1
+Presentation,5,2025-06-20 15:45,6,3
+Online Course,5,2025-06-21 13:30,11,2
+Research Paper,11,2025-06-24 13:15,12,2
+Project Work,3,2025-06-23 08:45,32,1
+Hackathon,2,2025-06-21 13:00,26,1
+Research Paper,8,2025-06-20 15:00,4,4
+Presentation,7,2025-06-23 10:00,14,2
+Presentation,4,2025-06-23 10:15,25,1
+Assignment,12,2025-06-23 08:15,8,3
+Group Study,7,2025-06-22 09:15,11,3
+Project Work,9,2025-06-21 13:45,6,3
+Project Work,10,2025-06-23 11:00,10,2
+Code Review,3,2025-06-21 12:00,17,1
+Report Writing,9,2025-06-24 08:30,14,2
+Research Paper,1,2025-06-19 08:30,1,1
+Hackathon,3,2025-06-19 17:45,3,3
+Group Study,5,2025-06-25 09:00,29,1
+Internship Task,8,2025-06-20 16:00,4,4
+Project Work,4,2025-06-24 17:00,32,1
+Hackathon,11,2025-06-23 12:45,9,3
+Research Paper,5,2025-06-20 16:45,7,3
+Research Paper,5,2025-06-19 08:45,1,5
+Internship Task,8,2025-06-24 15:30,16,2
+Project Work,11,2025-06-24 10:30,11,2
+Hackathon,11,2025-06-24 15:15,12,2
+Presentation,7,2025-06-21 18:30,9,3
+Research Paper,11,2025-06-20 10:45,3,6
+Report Writing,9,2025-06-19 14:30,1,9
+Hackathon,12,2025-06-21 11:15,5,4
+Project Work,6,2025-06-22 11:30,13,2
+Online Course,12,2025-06-23 11:45,9,3
+Hackathon,10,2025-06-23 10:45,10,2
+Report Writing,2,2025-06-24 11:30,61,1
+Research Paper,10,2025-06-19 16:00,1,10
+Report Writing,5,2025-06-21 15:30,11,2
+Internship Task,6,2025-06-22 18:15,14,2
+Code Review,9,2025-06-21 13:30,6,3
+Research Paper,2,2025-06-19 17:45,4,2
+Hackathon,3,2025-06-24 16:45,43,1
+Report Writing,8,2025-06-19 15:30,1,8
+Report Writing,2,2025-06-19 16:30,4,2
+Research Paper,5,2025-06-21 12:30,11,2
+Internship Task,6,2025-06-25 13:45,25,1
+Internship Task,7,2025-06-22 15:15,12,2
+Internship Task,5,2025-06-23 08:15,19,2
+Project Work,8,2025-06-25 11:00,19,2
+Presentation,9,2025-06-23 14:45,12,2
+Assignment,10,2025-06-24 13:15,13,2
+Presentation,5,2025-06-21 14:00,11,2
+Group Study,6,2025-06-22 15:00,13,2
+Research Paper,1,2025-06-24 11:15,122,1
+Presentation,10,2025-06-23 14:30,11,2
+Research Paper,3,2025-06-21 16:45,19,1
+Group Study,4,2025-06-24 11:00,31,1
+Report Writing,6,2025-06-21 11:45,9,2
+Code Review,12,2025-06-19 10:30,1,12
+Project Work,2,2025-06-22 11:45,37,1
+Project Work,12,2025-06-21 11:15,5,4
+Report Writing,2,2025-06-24 11:15,61,1
+Assignment,7,2025-06-21 09:30,7,4
+Presentation,10,2025-06-24 13:15,13,2
+Research Paper,12,2025-06-25 14:45,13,2
+Presentation,6,2025-06-20 10:15,5,3
+Online Course,5,2025-06-24 10:00,25,1
+Group Study,7,2025-06-21 15:15,8,3
+Internship Task,7,2025-06-21 17:30,8,3
+Internship Task,5,2025-06-25 14:00,30,1
+Hackathon,12,2025-06-20 11:00,3,6
+Presentation,2,2025-06-23 11:00,49,1
+Group Study,6,2025-06-20 18:30,6,3
+Code Review,3,2025-06-23 18:15,35,1
+Presentation,2,2025-06-24 10:30,61,1
+Report Writing,11,2025-06-23 13:00,10,3
+Group Study,12,2025-06-24 15:45,11,2
+Group Study,12,2025-06-19 08:45,1,12
+Online Course,7,2025-06-25 13:45,22,1
+Code Review,10,2025-06-24 12:15,13,2
+Report Writing,10,2025-06-19 11:00,1,10
+Internship Task,11,2025-06-23 16:45,10,3
+Presentation,6,2025-06-23 16:45,18,2
+Hackathon,1,2025-06-25 11:15,146,1
+Presentation,9,2025-06-20 15:45,4,5
+Report Writing,12,2025-06-21 08:00,4,6
+Assignment,12,2025-06-24 09:45,10,3
+Research Paper,7,2025-06-21 17:00,8,3
+Report Writing,10,2025-06-25 14:30,15,2
+Hackathon,10,2025-06-23 08:45,10,3
+Hackathon,12,2025-06-20 13:45,3,6
+Internship Task,2,2025-06-21 10:00,25,1
+Report Writing,9,2025-06-24 08:15,14,2
+Research Paper,2,2025-06-22 14:15,39,1
+Research Paper,12,2025-06-23 17:00,9,3
+Group Study,10,2025-06-23 11:30,10,2
+Presentation,4,2025-06-24 08:15,30,1
+Assignment,9,2025-06-21 14:30,6,3
+Internship Task,4,2025-06-22 08:00,18,2
+Group Study,12,2025-06-23 17:30,9,3
+Internship Task,8,2025-06-23 14:00,13,2
+Research Paper,12,2025-06-21 09:45,4,6
+Assignment,10,2025-06-24 15:15,13,2
+Presentation,9,2025-06-19 10:30,1,9
+Code Review,6,2025-06-22 13:45,13,2
